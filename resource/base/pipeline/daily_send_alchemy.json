@@ -1,0 +1,517 @@
+{
+    "$__mpe_config_daily_send_alchemy": {
+        "$__mpe_code": {
+            "prefix": "",
+            "lastSyncTime": 1778147267094,
+            "isModifiedExternally": false,
+            "filePath": "D:\\MAA_TKFM\\resource\\base\\pipeline\\daily_send_alchemy.json",
+            "savedViewport": {
+                "x": -666,
+                "y": -10,
+                "zoom": 1
+            },
+            "filename": "daily_send_alchemy",
+            "version": "v1.5.0"
+        }
+    },
+    "can_send": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "派遣完成"
+                ]
+            }
+        },
+        "next": [
+            "in_send"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 635,
+                "y": 232
+            }
+        }
+    },
+    "click_send": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    557,
+                    943,
+                    34,
+                    25
+                ]
+            }
+        },
+        "post_delay": 3000,
+        "next": [
+            "close"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1293,
+                "y": 213
+            }
+        }
+    },
+    "click_send_1": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    557,
+                    1076,
+                    37,
+                    17
+                ]
+            }
+        },
+        "post_delay": 3000,
+        "next": [
+            "close_副本2"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1881,
+                "y": 210
+            }
+        }
+    },
+    "close": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    329,
+                    1050,
+                    56,
+                    20
+                ]
+            }
+        },
+        "post_delay": 1000,
+        "next": [
+            "click_send_1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1581,
+                "y": 206
+            }
+        }
+    },
+    "close_副本2": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    329,
+                    1050,
+                    56,
+                    20
+                ]
+            }
+        },
+        "post_delay": 1000,
+        "next": [
+            "send新建节点8"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 2153,
+                "y": 210
+            }
+        }
+    },
+    "close_副本2_副本4": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    329,
+                    1050,
+                    56,
+                    20
+                ]
+            }
+        },
+        "post_delay": 1000,
+        "next": [
+            "send1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 2693,
+                "y": 206
+            }
+        }
+    },
+    "daily_send": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    13,
+                    610,
+                    45,
+                    39
+                ]
+            }
+        },
+        "post_delay": 1000,
+        "next": [
+            "can_send",
+            "send新建节点12"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 364,
+                "y": 249
+            }
+        }
+    },
+    "go": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    352,
+                    1146,
+                    31,
+                    23
+                ]
+            }
+        },
+        "post_delay": 3000,
+        "next": [
+            "send1_副本6"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3205,
+                "y": 205
+            }
+        }
+    },
+    "go_副本7": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    352,
+                    1146,
+                    31,
+                    23
+                ]
+            }
+        },
+        "post_delay": 3000,
+        "next": [
+            "send1_副本6_副本8"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3727,
+                "y": 200
+            }
+        }
+    },
+    "go_副本7_副本9": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    352,
+                    1146,
+                    31,
+                    23
+                ]
+            }
+        },
+        "post_delay": 3000,
+        "next": [
+            "send新建节点9"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4237,
+                "y": 192
+            }
+        }
+    },
+    "in_send": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    41,
+                    574,
+                    85,
+                    34
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "click_send"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 996,
+                "y": 214
+            }
+        }
+    },
+    "send1": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    332,
+                    898,
+                    48,
+                    31
+                ]
+            }
+        },
+        "post_delay": 3000,
+        "next": [
+            "go"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 2952,
+                "y": 208
+            }
+        }
+    },
+    "send1_副本6": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    298,
+                    1028,
+                    45,
+                    25
+                ]
+            }
+        },
+        "post_delay": 3000,
+        "next": [
+            "go_副本7"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3465,
+                "y": 200
+            }
+        }
+    },
+    "send1_副本6_副本8": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    301,
+                    1157,
+                    37,
+                    31
+                ]
+            }
+        },
+        "post_delay": 3000,
+        "next": [
+            "go_副本7_副本9"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3982,
+                "y": 193
+            }
+        }
+    },
+    "send新建节点1": {
+        "next": [
+            "start_daily_send_alchemy"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3037,
+                "y": -55
+            }
+        }
+    },
+    "send新建节点12": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    98,
+                    464,
+                    51,
+                    56
+                ]
+            }
+        },
+        "post_delay": 1000,
+        "next": [
+            "send新建节点12_副本11"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 654,
+                "y": 448
+            }
+        }
+    },
+    "send新建节点12_副本11": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    461,
+                    785,
+                    79,
+                    28
+                ]
+            }
+        },
+        "post_delay": 1000,
+        "next": [
+            "send新建节点12_副本11_副本12"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 954,
+                "y": 456
+            }
+        }
+    },
+    "send新建节点12_副本11_副本12": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    309,
+                    726,
+                    87,
+                    37
+                ]
+            }
+        },
+        "post_delay": 1000,
+        "next": [
+            "send新建节点12_副本11_副本12_副本13"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1254,
+                "y": 457
+            }
+        }
+    },
+    "send新建节点12_副本11_副本12_副本13": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    81,
+                    1011,
+                    62,
+                    62
+                ]
+            }
+        },
+        "repeat": 14,
+        "repeat_delay": 500,
+        "next": [
+            "send新建节点12_副本11_副本12_副本14"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1550,
+                "y": 439
+            }
+        }
+    },
+    "send新建节点12_副本11_副本12_副本14": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    24,
+                    61,
+                    54,
+                    28
+                ]
+            }
+        },
+        "post_delay": 3000,
+        "$__mpe_code": {
+            "position": {
+                "x": 1849,
+                "y": 453
+            }
+        }
+    },
+    "send新建节点8": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    549,
+                    1197,
+                    45,
+                    37
+                ]
+            }
+        },
+        "post_delay": 3000,
+        "next": [
+            "close_副本2_副本4"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 2425,
+                "y": 205
+            }
+        }
+    },
+    "send新建节点9": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    22,
+                    66,
+                    56,
+                    20
+                ]
+            }
+        },
+        "post_delay": 5000,
+        "next": [
+            "send新建节点1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4516,
+                "y": 189
+            }
+        }
+    },
+    "start_daily_send_alchemy": {
+        "next": [
+            "daily_send"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -9,
+                "y": 269
+            }
+        }
+    }
+}

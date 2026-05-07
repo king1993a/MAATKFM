@@ -1,0 +1,551 @@
+{
+    "$__mpe_config_play": {
+        "$__mpe_code": {
+            "prefix": "",
+            "lastSyncTime": 1778144372056,
+            "isModifiedExternally": false,
+            "filePath": "D:\\MAA_TKFM\\resource\\base\\pipeline\\play.json",
+            "savedViewport": {
+                "x": -3207,
+                "y": -534,
+                "zoom": 1.06
+            },
+            "filename": "play",
+            "version": "v1.5.0"
+        }
+    },
+    "start_play": {
+        "next": [
+            "play新建节点14"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3294,
+                "y": 805
+            }
+        }
+    },
+    "play新建节点1": {
+        "next": [
+            "play新建节点2",
+            "play新建节点2_副本1",
+            "play新建节点23_副本17"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 6362,
+                "y": 726
+            }
+        }
+    },
+    "play新建节点14": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    622,
+                    1050,
+                    34,
+                    48
+                ]
+            }
+        },
+        "post_delay": 3000,
+        "next": [
+            "play新建节点15"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3582,
+                "y": 773
+            }
+        }
+    },
+    "play新建节点15": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    501,
+                    664,
+                    56,
+                    28
+                ]
+            }
+        },
+        "post_delay": 1000,
+        "next": [
+            "play新建节点16"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3863,
+                "y": 773
+            }
+        }
+    },
+    "play新建节点15_副本15": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    498,
+                    819,
+                    48,
+                    31
+                ]
+            }
+        },
+        "repeat": 3,
+        "repeat_delay": 500,
+        "post_delay": 1000,
+        "next": [
+            "play新建节点15_副本16"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4404,
+                "y": 761
+            }
+        }
+    },
+    "play新建节点15_副本16": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    461,
+                    1078,
+                    59,
+                    25
+                ]
+            }
+        },
+        "post_delay": 1000,
+        "next": [
+            "play新建节点17",
+            "play新建节点18"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4666,
+                "y": 782
+            }
+        }
+    },
+    "play新建节点16": {
+        "action": {
+            "type": "Swipe",
+            "param": {
+                "begin": [
+                    340,
+                    867,
+                    23,
+                    34
+                ],
+                "end": [
+                    [
+                        346,
+                        278,
+                        28,
+                        25
+                    ]
+                ]
+            }
+        },
+        "post_delay": 1000,
+        "next": [
+            "play新建节点15_副本15"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4137,
+                "y": 766
+            }
+        }
+    },
+    "play新建节点17": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "roi": [
+                    586,
+                    639,
+                    59,
+                    73
+                ],
+                "template": [
+                    "down_arrow.png"
+                ],
+                "threshold": [
+                    0.9
+                ]
+            }
+        },
+        "next": [
+            "play新建节点22"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4972,
+                "y": 762
+            }
+        }
+    },
+    "play新建节点18": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    602,
+                    658,
+                    34,
+                    31
+                ]
+            }
+        },
+        "post_delay": 1000,
+        "next": [
+            "play新建节点22"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4968,
+                "y": 1079
+            }
+        }
+    },
+    "play新建节点19": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "roi": [
+                    129,
+                    106,
+                    118,
+                    499
+                ],
+                "template": [
+                    "next.png"
+                ],
+                "threshold": [
+                    0.9
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 3000,
+        "next": [
+            "play新建节点20",
+            "play新建节点23"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5565,
+                "y": 822
+            }
+        }
+    },
+    "play新建节点2": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "play_full.png"
+                ]
+            }
+        },
+        "next": [
+            "play新建节点5"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 6676,
+                "y": 343
+            }
+        }
+    },
+    "play新建节点20": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    176,
+                    1134,
+                    61,
+                    26
+                ],
+                "expected": [
+                    "^\\s*(1[6-9]|[2-9]\\d+|1\\d{2,})\\s*$"
+                ],
+                "replace": [
+                    [
+                        ",",
+                        ""
+                    ]
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "next": [
+            "play新建节点21"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5843,
+                "y": 838
+            }
+        }
+    },
+    "play新建节点21": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    357,
+                    512,
+                    45,
+                    48
+                ]
+            }
+        },
+        "repeat": 15,
+        "repeat_delay": 500,
+        "next": [
+            "play新建节点1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 6098,
+                "y": 850
+            }
+        }
+    },
+    "play新建节点22": {
+        "next": [
+            "play新建节点19"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5309,
+                "y": 886
+            }
+        }
+    },
+    "play新建节点23": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    24,
+                    58,
+                    37,
+                    31
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "play新建节点23_副本18"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5863,
+                "y": 1138
+            }
+        }
+    },
+    "play新建节点23_副本17": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    24,
+                    58,
+                    37,
+                    31
+                ]
+            }
+        },
+        "post_delay": 1000,
+        "next": [
+            "play新建节点23_副本17_副本20"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 7224,
+                "y": 854
+            }
+        }
+    },
+    "play新建节点23_副本17_副本20": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    24,
+                    58,
+                    37,
+                    31
+                ]
+            }
+        },
+        "post_delay": 3000,
+        "$__mpe_code": {
+            "position": {
+                "x": 7492,
+                "y": 850
+            }
+        }
+    },
+    "play新建节点23_副本18": {
+        "action": {
+            "type": "Swipe",
+            "param": {
+                "begin": [
+                    330,
+                    827,
+                    11,
+                    23
+                ],
+                "end": [
+                    [
+                        233,
+                        833,
+                        17,
+                        14
+                    ]
+                ],
+                "duration": [
+                    1000
+                ]
+            }
+        },
+        "post_delay": 1000,
+        "next": [
+            "play新建节点23_副本19"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 6136,
+                "y": 1138
+            }
+        }
+    },
+    "play新建节点23_副本19": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    191,
+                    847,
+                    20,
+                    23
+                ]
+            }
+        },
+        "post_delay": 1000,
+        "next": [
+            "play新建节点22"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 6418,
+                "y": 1147
+            }
+        }
+    },
+    "play新建节点2_副本1": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "no_play_point.png"
+                ]
+            }
+        },
+        "next": [
+            "play新建节点3"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 6648,
+                "y": 566
+            }
+        }
+    },
+    "play新建节点3": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "close_notice.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 1000,
+        "next": [
+            "play新建节点23_副本17"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 6947,
+                "y": 567
+            }
+        }
+    },
+    "play新建节点5": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "取消"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 1000,
+        "next": [
+            "play新建节点5_副本2"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 6939,
+                "y": 341
+            }
+        }
+    },
+    "play新建节点5_副本2": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "確定"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 1000,
+        "next": [
+            "play新建节点23_副本17"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 7205,
+                "y": 340
+            }
+        }
+    }
+}

@@ -1,0 +1,418 @@
+{
+    "$__mpe_config_daily_lvup": {
+        "$__mpe_code": {
+            "prefix": "",
+            "lastSyncTime": 1778140674320,
+            "isModifiedExternally": false,
+            "filePath": "D:\\MAA_TKFM\\resource\\base\\pipeline\\daily_lvup.json",
+            "savedViewport": {
+                "x": -211,
+                "y": 162,
+                "zoom": 1.39
+            },
+            "filename": "daily_lvup",
+            "version": "v1.5.0"
+        }
+    },
+    "lvup": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    112,
+                    1186,
+                    56,
+                    39
+                ]
+            }
+        },
+        "repeat": 3,
+        "repeat_delay": 500,
+        "next": [
+            "新建节点2"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 757,
+                "y": 87
+            }
+        }
+    },
+    "新建节点10": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    123,
+                    819,
+                    48,
+                    45
+                ]
+            }
+        },
+        "post_delay": 500,
+        "next": [
+            "新建节点11"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3493,
+                "y": 75
+            }
+        }
+    },
+    "新建节点10_副本3": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    123,
+                    819,
+                    48,
+                    45
+                ]
+            }
+        },
+        "post_delay": 500,
+        "next": [
+            "新建节点11_副本4"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4028,
+                "y": 77
+            }
+        }
+    },
+    "新建节点11": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    312,
+                    1045,
+                    93,
+                    34
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "新建节点10_副本3"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3759,
+                "y": 79
+            }
+        }
+    },
+    "新建节点11_副本4": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    312,
+                    1045,
+                    93,
+                    34
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "新建节点12"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4271,
+                "y": 77
+            }
+        }
+    },
+    "新建节点12": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    98,
+                    1188,
+                    65,
+                    37
+                ]
+            }
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 4539,
+                "y": 109
+            }
+        }
+    },
+    "新建节点13": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    676,
+                    548,
+                    34,
+                    31
+                ]
+            }
+        },
+        "post_delay": 1000,
+        "next": [
+            "新建节点7_副本2"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 2446,
+                "y": -53
+            }
+        }
+    },
+    "新建节点2": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    230,
+                    1191,
+                    51,
+                    31
+                ]
+            }
+        },
+        "post_delay": 1000,
+        "next": [
+            "新建节点3"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1054,
+                "y": 98
+            }
+        }
+    },
+    "新建节点3": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    580,
+                    551,
+                    51,
+                    28
+                ]
+            }
+        },
+        "post_delay": 1000,
+        "next": [
+            "新建节点4"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1328,
+                "y": 105
+            }
+        }
+    },
+    "新建节点4": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    160,
+                    250,
+                    48,
+                    31
+                ]
+            }
+        },
+        "post_delay": 500,
+        "next": [
+            "新建节点5"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1620,
+                "y": 108
+            }
+        }
+    },
+    "新建节点5": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    470,
+                    1078,
+                    42,
+                    23
+                ]
+            }
+        },
+        "post_delay": 1500,
+        "next": [
+            "新建节点6",
+            "新建节点7_副本2_副本5"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1895,
+                "y": 104
+            }
+        }
+    },
+    "新建节点6": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "down_arrow.png"
+                ],
+                "threshold": [
+                    0.9
+                ]
+            }
+        },
+        "timeout": 1000,
+        "next": [
+            "新建节点13"
+        ],
+        "on_error": [
+            "新建节点7_副本2_副本5"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 2174,
+                "y": -77
+            }
+        }
+    },
+    "新建节点7_副本2": {
+        "action": {
+            "type": "Swipe",
+            "param": {
+                "begin": [
+                    633,
+                    757,
+                    6,
+                    20
+                ],
+                "end": [
+                    [
+                        143,
+                        746,
+                        14,
+                        28
+                    ]
+                ],
+                "duration": [
+                    2000
+                ]
+            }
+        },
+        "post_delay": 1000,
+        "next": [
+            "新建节点8"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 2682,
+                "y": -67
+            }
+        }
+    },
+    "新建节点7_副本2_副本5": {
+        "action": {
+            "type": "Swipe",
+            "param": {
+                "begin": [
+                    633,
+                    757,
+                    6,
+                    20
+                ],
+                "end": [
+                    [
+                        143,
+                        746,
+                        14,
+                        28
+                    ]
+                ],
+                "duration": [
+                    2000
+                ]
+            }
+        },
+        "post_delay": 1000,
+        "next": [
+            "新建节点8"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 2458,
+                "y": 202
+            }
+        }
+    },
+    "新建节点8": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    419,
+                    746,
+                    65,
+                    48
+                ]
+            }
+        },
+        "next": [
+            "新建节点9"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 2911,
+                "y": 105
+            }
+        }
+    },
+    "新建节点9": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    600,
+                    991,
+                    48,
+                    37
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "新建节点10"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3198,
+                "y": 80
+            }
+        }
+    },
+    "start_daily_lvup": {
+        "next": [
+            "lvup"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 400,
+                "y": 127
+            }
+        }
+    }
+}

@@ -1,0 +1,82 @@
+{
+  "name": "TKFM_Automation",
+  "version": "1.0",
+  "controller": [
+    {
+      "name": "Adb",
+      "label": "安卓模擬器連線",
+      "type": "Adb"
+    }
+  ],
+  "resource": [
+    {
+      "name": "Base",
+      "label": "基礎資源包",
+      "path": [
+        "{PROJECT_DIR}/resource/base"
+      ]
+    }
+  ],
+  "task": [
+    {
+      "name": "[全局] 啟動遊戲",
+      "entry": "start_start_game",
+      "default_check": true,
+      "description": "從桌面啟動遊戲等45秒處理登入與公告。"
+    },
+    {
+      "name": "[執行] 獲取體力",
+      "entry": "start_get_energy",
+      "default_check": true,
+      "description": "自動領取體力。"
+    },
+    {
+      "name": "[執行] 自動派發鍊金",
+      "entry": "start_daily_send_alchemy",
+      "default_check": true,
+      "description": "自動處理鍊金工作坊的收成與派發。"
+    },
+        {
+      "name": "[執行] 自動活動戰鬥",
+      "entry": "start_fight",
+      "default_check": true,
+      "description": "執行活動關卡自動戰鬥 支援自動推關卡 推關卡時會使用時限<5天的體力水 掃蕩使用時限<3天的體力水。"
+    },
+    {
+      "name": "[執行] 角色強化",
+      "entry": "start_daily_lvup",
+      "default_check": true,
+      "description": "自動執行角色強化 邏輯為強化等級最低的角色 使用2瓶最小經驗。"
+    },
+    {
+      "name": "[執行] 自動調教",
+      "entry": "start_play",
+      "default_check": true,
+      "description": "自動執行調教流程 邏輯為等級最高、有next可點、有最小調教道具15個的角色 使用最小的調教道具15個。"
+    },
+    {
+      "name": "[執行] 商店自動購買",
+      "entry": "start_daily_shop",
+      "default_check": true,
+      "description": "自動過濾 SOLD OUT 並購買指定物資(招募命令|魔晶石|體力藥水|緊急錄用證|召喚契約|阿克色紀錄)。"
+    },
+    {
+      "name": "[執行] 每日任務獎勵",
+      "entry": "start_daily_quest",
+      "default_check": true,
+      "description": "自動領取每日任務與成就獎勵。"
+    },
+    {
+      "name": "[執行] 每日戰鬥",
+      "entry": "start_daily_fight",
+      "default_check": true,
+      "description": "執行經驗、金幣、情報每日關卡。"
+    },
+    {
+      "name": "[執行] 公會與信箱獎勵",
+      "entry": "start_guild_mail",
+      "default_check": true,
+      "description": "自動領取公會獎勵與信箱補償。"
+    }
+  ]
+}

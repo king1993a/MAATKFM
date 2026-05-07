@@ -1,0 +1,164 @@
+{
+    "$__mpe_config_guild_mail": {
+        "$__mpe_code": {
+            "filename": "guild_mail",
+            "prefix": "",
+            "savedViewport": {
+                "x": -983,
+                "y": 339,
+                "zoom": 0.75
+            },
+            "version": "v1.5.0"
+        }
+    },
+    "guild新建节点10": {
+        "$__mpe_code": {
+            "position": {
+                "x": 1947,
+                "y": 82
+            }
+        },
+        "action": {
+            "param": {
+                "target": [
+                    346,
+                    1188,
+                    39,
+                    23
+                ]
+            },
+            "type": "Click"
+        },
+        "next": [
+            "guild新建节点10_副本3"
+        ],
+        "post_delay": 1000
+    },
+    "guild新建节点10_副本3": {
+        "$__mpe_code": {
+            "position": {
+                "x": 2209,
+                "y": 59
+            }
+        },
+        "action": {
+            "param": {
+                "target": [
+                    583,
+                    1056,
+                    25,
+                    23
+                ]
+            },
+            "type": "Click"
+        },
+        "next": [
+            "guild新建节点10_副本4"
+        ],
+        "post_delay": 1000,
+        "repeat": 3,
+        "repeat_delay": 500
+    },
+    "guild新建节点10_副本3_副本6": {
+        "$__mpe_code": {
+            "position": {
+                "x": 2986,
+                "y": 47
+            }
+        },
+        "action": {
+            "param": {
+                "target": [
+                    346,
+                    1064,
+                    34,
+                    6
+                ]
+            },
+            "type": "Click"
+        },
+        "next": [
+            "guild新建节点10_副本4_副本5_副本7"
+        ],
+        "post_delay": 1000,
+        "repeat": 5,
+        "repeat_delay": 500
+    },
+    "guild新建节点10_副本4": {
+        "$__mpe_code": {
+            "position": {
+                "x": 2466,
+                "y": 80
+            }
+        },
+        "action": {
+            "param": {
+                "target": [
+                    115,
+                    1200,
+                    37,
+                    20
+                ]
+            },
+            "type": "Click"
+        },
+        "next": [
+            "guild新建节点10_副本4_副本5"
+        ],
+        "post_delay": 1000
+    },
+    "guild新建节点10_副本4_副本5": {
+        "$__mpe_code": {
+            "position": {
+                "x": 2725,
+                "y": 72
+            }
+        },
+        "action": {
+            "param": {
+                "target": [
+                    555,
+                    78,
+                    17,
+                    23
+                ]
+            },
+            "type": "Click"
+        },
+        "next": [
+            "guild新建节点10_副本3_副本6"
+        ],
+        "post_delay": 1000
+    },
+    "guild新建节点10_副本4_副本5_副本7": {
+        "$__mpe_code": {
+            "position": {
+                "x": 3246,
+                "y": 68
+            }
+        },
+        "action": {
+            "param": {
+                "target": [
+                    354,
+                    1183,
+                    17,
+                    11
+                ]
+            },
+            "type": "Click"
+        },
+        "post_delay": 1000
+    },
+    "start_guild_mail": {
+        "$__mpe_code": {
+            "position": {
+                "x": 1622,
+                "y": 105
+            }
+        },
+        "next": [
+            "guild新建节点10"
+        ]
+    }
+}

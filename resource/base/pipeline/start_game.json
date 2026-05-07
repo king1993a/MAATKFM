@@ -1,0 +1,155 @@
+{
+    "$__mpe_config_start_game": {
+        "$__mpe_code": {
+            "prefix": "",
+            "lastSyncTime": 1778149080165,
+            "isModifiedExternally": false,
+            "filePath": "D:\\MAA_TKFM\\resource\\base\\pipeline\\start_game.json",
+            "savedViewport": {
+                "x": 1425,
+                "y": 40,
+                "zoom": 1.14
+            },
+            "filename": "start_game",
+            "version": "v1.5.0"
+        }
+    },
+    "Test_Open_App": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "pre_game.png"
+                ],
+                "threshold": [
+                    0.8
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 45000,
+        "timeout": 20000,
+        "next": [
+            "open1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -685,
+                "y": 79
+            }
+        }
+    },
+    "open1": {
+        "enabled": true,
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    337,
+                    1157,
+                    23,
+                    34
+                ]
+            }
+        },
+        "repeat": 10,
+        "repeat_delay": 2000,
+        "next": [
+            "open2"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -409,
+                "y": 84
+            }
+        }
+    },
+    "open2": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    27,
+                    52,
+                    68,
+                    42
+                ]
+            }
+        },
+        "repeat": 3,
+        "repeat_delay": 1000,
+        "next": [
+            "open3"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -105,
+                "y": 82
+            }
+        }
+    },
+    "open3": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    87,
+                    1180,
+                    79,
+                    59
+                ]
+            }
+        },
+        "repeat": 3,
+        "repeat_delay": 1000,
+        "$__mpe_code": {
+            "position": {
+                "x": 180,
+                "y": 88
+            }
+        }
+    },
+    "start_start_game": {
+        "next": [
+            "start新建节点4"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -1326,
+                "y": 159
+            }
+        }
+    },
+    "start新建节点4": {
+        "action": {
+            "type": "Shell",
+            "param": {
+                "cmd": "input keyevent 3"
+            }
+        },
+        "post_delay": 5000,
+        "next": [
+            "Test_Open_App",
+            "start新建节点6"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -1014,
+                "y": 124
+            }
+        }
+    },
+    "start新建节点6": {
+        "action": {
+            "type": "StopTask"
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": -686,
+                "y": 446
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+# 排除個人設定檔 (如果你不希望別人看到你的模擬器路徑或解析度)
+config/
+gui_config.json
+config.json
+# 排除執行產生的暫存檔與日誌
+log/
+debug/
+cache/
+*.log
+
+# 排除 VS Code 的編輯器設定
+.vscode/
+
+# 排除系統暫存
+Thumbs.db
+.DS_Store
