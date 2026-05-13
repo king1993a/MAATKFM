@@ -2,13 +2,13 @@
     "$__mpe_config_get_energy": {
         "$__mpe_code": {
             "prefix": "",
-            "lastSyncTime": 1778654721082,
+            "lastSyncTime": 1778696020060,
             "isModifiedExternally": false,
             "filePath": "D:\\MAATKFM\\resource\\base\\pipeline\\get_energy.json",
             "savedViewport": {
-                "x": 1276,
-                "y": 299,
-                "zoom": 0.7
+                "x": 1659,
+                "y": 70,
+                "zoom": 0.75
             },
             "filename": "get_energy",
             "version": "v1.5.0"
@@ -106,42 +106,13 @@
     },
     "start_get_energy": {
         "next": [
-            "Test_O1_副本21_副本23_副本35",
+            "Test_O1_副本1_副本11_副本18",
             "start新建节点4_副本22_副本24_副本36"
         ],
         "$__mpe_code": {
             "position": {
                 "x": -948,
                 "y": 93
-            }
-        }
-    },
-    "Test_O1_副本21_副本23_副本35": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    14,
-                    40,
-                    80,
-                    89
-                ],
-                "expected": [
-                    "<"
-                ],
-                "threshold": 0.2
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "next": [
-            "start_get_energy"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": -568,
-                "y": 327
             }
         }
     },
@@ -171,6 +142,46 @@
             "position": {
                 "x": -567,
                 "y": 43
+            }
+        }
+    },
+    "Test_O1_副本1_副本11_副本18": {
+        "recognition": {
+            "type": "ColorMatch",
+            "param": {
+                "roi": [
+                    4,
+                    53,
+                    115,
+                    42
+                ],
+                "lower": [
+                    [
+                        200,
+                        200,
+                        200
+                    ]
+                ],
+                "upper": [
+                    [
+                        255,
+                        255,
+                        255
+                    ]
+                ],
+                "count": 3000
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "start_get_energy"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -573,
+                "y": 343
             }
         }
     }

@@ -2,45 +2,16 @@
     "$__mpe_config_start_game": {
         "$__mpe_code": {
             "prefix": "",
-            "lastSyncTime": 1778654616704,
+            "lastSyncTime": 1778696132239,
             "isModifiedExternally": false,
             "filePath": "D:\\MAATKFM\\resource\\base\\pipeline\\start_game.json",
             "savedViewport": {
-                "x": 1217,
-                "y": 529,
-                "zoom": 0.61
+                "x": 1938,
+                "y": 174,
+                "zoom": 1.5
             },
             "filename": "start_game",
             "version": "v1.5.0"
-        }
-    },
-    "Test_O1": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    14,
-                    40,
-                    80,
-                    89
-                ],
-                "expected": [
-                    "<"
-                ],
-                "threshold": 0.2
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "next": [
-            "start新建节点3"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": -696,
-                "y": -391
-            }
         }
     },
     "Test_Open_App": {
@@ -51,7 +22,7 @@
                     "pre_game.png"
                 ],
                 "threshold": [
-                    0.8
+                    0.7
                 ]
             }
         },
@@ -159,6 +130,9 @@
             "param": {
                 "template": [
                     "start2.png"
+                ],
+                "threshold": [
+                    0.4
                 ]
             }
         },
@@ -200,7 +174,7 @@
         "next": [
             "Test_Open_App",
             "Test_Open_App_副本1",
-            "Test_O1",
+            "Test_O1_副本1_副本11_副本21",
             "start新建节点4"
         ],
         "$__mpe_code": {
@@ -240,6 +214,46 @@
             "position": {
                 "x": 233,
                 "y": 687
+            }
+        }
+    },
+    "Test_O1_副本1_副本11_副本21": {
+        "recognition": {
+            "type": "ColorMatch",
+            "param": {
+                "roi": [
+                    4,
+                    53,
+                    115,
+                    42
+                ],
+                "lower": [
+                    [
+                        200,
+                        200,
+                        200
+                    ]
+                ],
+                "upper": [
+                    [
+                        255,
+                        255,
+                        255
+                    ]
+                ],
+                "count": 3000
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "start新建节点3"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -690,
+                "y": -455
             }
         }
     }

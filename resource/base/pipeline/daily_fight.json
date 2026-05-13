@@ -2,13 +2,13 @@
     "$__mpe_config_daily_fight": {
         "$__mpe_code": {
             "prefix": "",
-            "lastSyncTime": 1778654679795,
+            "lastSyncTime": 1778695762404,
             "isModifiedExternally": false,
             "filePath": "D:\\MAATKFM\\resource\\base\\pipeline\\daily_fight.json",
             "savedViewport": {
-                "x": -12000,
-                "y": -1318,
-                "zoom": 1.09
+                "x": -10074,
+                "y": -1125,
+                "zoom": 0.92
             },
             "filename": "daily_fight",
             "version": "v1.5.0"
@@ -259,13 +259,42 @@
     },
     "start_daily_fight": {
         "next": [
-            "Test_O1_副本21_副本23",
+            "Test_O1_副本1_副本11_副本12",
             "start新建节点4_副本22_副本24"
         ],
         "$__mpe_code": {
             "position": {
                 "x": 11484,
                 "y": 1428
+            }
+        }
+    },
+    "start新建节点4_副本22_副本24": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    75,
+                    1175,
+                    109,
+                    63
+                ],
+                "expected": [
+                    "城堡"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 1000,
+        "next": [
+            "daily_fight新建节点57"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 11780,
+                "y": 1355
             }
         }
     },
@@ -666,20 +695,31 @@
             }
         }
     },
-    "Test_O1_副本21_副本23": {
+    "Test_O1_副本1_副本11_副本12": {
         "recognition": {
-            "type": "OCR",
+            "type": "ColorMatch",
             "param": {
                 "roi": [
-                    14,
-                    40,
-                    80,
-                    89
+                    4,
+                    53,
+                    115,
+                    42
                 ],
-                "expected": [
-                    "<"
+                "lower": [
+                    [
+                        200,
+                        200,
+                        200
+                    ]
                 ],
-                "threshold": 0.2
+                "upper": [
+                    [
+                        255,
+                        255,
+                        255
+                    ]
+                ],
+                "count": 3000
             }
         },
         "action": {
@@ -690,37 +730,8 @@
         ],
         "$__mpe_code": {
             "position": {
-                "x": 11780,
-                "y": 1619
-            }
-        }
-    },
-    "start新建节点4_副本22_副本24": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    75,
-                    1175,
-                    109,
-                    63
-                ],
-                "expected": [
-                    "城堡"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "post_delay": 1000,
-        "next": [
-            "daily_fight新建节点57"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 11780,
-                "y": 1355
+                "x": 11779,
+                "y": 1649
             }
         }
     }

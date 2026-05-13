@@ -2,13 +2,13 @@
     "$__mpe_config_daily_lvup": {
         "$__mpe_code": {
             "prefix": "",
-            "lastSyncTime": 1778654692010,
+            "lastSyncTime": 1778695764630,
             "isModifiedExternally": false,
             "filePath": "D:\\MAATKFM\\resource\\base\\pipeline\\daily_lvup.json",
             "savedViewport": {
-                "x": 341,
-                "y": 223,
-                "zoom": 1.06
+                "x": 502,
+                "y": 229,
+                "zoom": 0.99
             },
             "filename": "daily_lvup",
             "version": "v1.5.0"
@@ -40,13 +40,42 @@
     },
     "start_daily_lvup": {
         "next": [
-            "Test_O1_副本21_副本23_副本25",
+            "Test_O1_副本1_副本11_副本13",
             "start新建节点4_副本22_副本24_副本26"
         ],
         "$__mpe_code": {
             "position": {
                 "x": 68,
                 "y": 126
+            }
+        }
+    },
+    "start新建节点4_副本22_副本24_副本26": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    75,
+                    1175,
+                    109,
+                    63
+                ],
+                "expected": [
+                    "城堡"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 1000,
+        "next": [
+            "lvup"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 414,
+                "y": 71
             }
         }
     },
@@ -416,20 +445,31 @@
             }
         }
     },
-    "Test_O1_副本21_副本23_副本25": {
+    "Test_O1_副本1_副本11_副本13": {
         "recognition": {
-            "type": "OCR",
+            "type": "ColorMatch",
             "param": {
                 "roi": [
-                    14,
-                    40,
-                    80,
-                    89
+                    4,
+                    53,
+                    115,
+                    42
                 ],
-                "expected": [
-                    "<"
+                "lower": [
+                    [
+                        200,
+                        200,
+                        200
+                    ]
                 ],
-                "threshold": 0.2
+                "upper": [
+                    [
+                        255,
+                        255,
+                        255
+                    ]
+                ],
+                "count": 3000
             }
         },
         "action": {
@@ -440,37 +480,8 @@
         ],
         "$__mpe_code": {
             "position": {
-                "x": 425,
-                "y": 335
-            }
-        }
-    },
-    "start新建节点4_副本22_副本24_副本26": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    75,
-                    1175,
-                    109,
-                    63
-                ],
-                "expected": [
-                    "城堡"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "post_delay": 1000,
-        "next": [
-            "lvup"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 414,
-                "y": 71
+                "x": 411,
+                "y": 348
             }
         }
     }

@@ -2,13 +2,13 @@
     "$__mpe_config_daily_quest": {
         "$__mpe_code": {
             "prefix": "",
-            "lastSyncTime": 1778654700874,
+            "lastSyncTime": 1778695766540,
             "isModifiedExternally": false,
             "filePath": "D:\\MAATKFM\\resource\\base\\pipeline\\daily_quest.json",
             "savedViewport": {
-                "x": 648,
-                "y": 353,
-                "zoom": 0.8
+                "x": 861,
+                "y": 352,
+                "zoom": 0.75
             },
             "filename": "daily_quest",
             "version": "v1.5.0"
@@ -184,42 +184,13 @@
     },
     "start_daily_quest": {
         "next": [
-            "Test_O1_副本21_副本23_副本27",
+            "Test_O1_副本1_副本11_副本14",
             "start新建节点4_副本22_副本24_副本28"
         ],
         "$__mpe_code": {
             "position": {
                 "x": -362,
                 "y": 107
-            }
-        }
-    },
-    "Test_O1_副本21_副本23_副本27": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    14,
-                    40,
-                    80,
-                    89
-                ],
-                "expected": [
-                    "<"
-                ],
-                "threshold": 0.2
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "next": [
-            "start_daily_quest"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": -76,
-                "y": 338
             }
         }
     },
@@ -249,6 +220,46 @@
             "position": {
                 "x": -81,
                 "y": 68
+            }
+        }
+    },
+    "Test_O1_副本1_副本11_副本14": {
+        "recognition": {
+            "type": "ColorMatch",
+            "param": {
+                "roi": [
+                    4,
+                    53,
+                    115,
+                    42
+                ],
+                "lower": [
+                    [
+                        200,
+                        200,
+                        200
+                    ]
+                ],
+                "upper": [
+                    [
+                        255,
+                        255,
+                        255
+                    ]
+                ],
+                "count": 3000
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "start_daily_quest"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -86,
+                "y": 343
             }
         }
     }

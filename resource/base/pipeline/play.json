@@ -2,13 +2,13 @@
     "$__mpe_config_play": {
         "$__mpe_code": {
             "prefix": "",
-            "lastSyncTime": 1778654726184,
+            "lastSyncTime": 1778696057372,
             "isModifiedExternally": false,
             "filePath": "D:\\MAATKFM\\resource\\base\\pipeline\\play.json",
             "savedViewport": {
-                "x": -1877,
-                "y": -267,
-                "zoom": 0.8
+                "x": -2273,
+                "y": -652,
+                "zoom": 0.99
             },
             "filename": "play",
             "version": "v1.5.0"
@@ -539,42 +539,13 @@
     },
     "start_play": {
         "next": [
-            "Test_O1_副本21_副本23_副本39",
+            "Test_O1_副本1_副本11_副本20",
             "start新建节点4_副本22_副本24_副本40"
         ],
         "$__mpe_code": {
             "position": {
                 "x": 2809,
                 "y": 808
-            }
-        }
-    },
-    "Test_O1_副本21_副本23_副本39": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    14,
-                    40,
-                    80,
-                    89
-                ],
-                "expected": [
-                    "<"
-                ],
-                "threshold": 0.2
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "next": [
-            "start_play"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 3219,
-                "y": 1022
             }
         }
     },
@@ -604,6 +575,46 @@
             "position": {
                 "x": 3219,
                 "y": 758
+            }
+        }
+    },
+    "Test_O1_副本1_副本11_副本20": {
+        "recognition": {
+            "type": "ColorMatch",
+            "param": {
+                "roi": [
+                    4,
+                    53,
+                    115,
+                    42
+                ],
+                "lower": [
+                    [
+                        200,
+                        200,
+                        200
+                    ]
+                ],
+                "upper": [
+                    [
+                        255,
+                        255,
+                        255
+                    ]
+                ],
+                "count": 3000
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "start_play"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3224,
+                "y": 1036
             }
         }
     }

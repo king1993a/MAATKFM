@@ -2,16 +2,45 @@
     "$__mpe_config_summon": {
         "$__mpe_code": {
             "prefix": "",
-            "lastSyncTime": 1778654587420,
+            "lastSyncTime": 1778693340672,
             "isModifiedExternally": false,
             "filePath": "D:\\MAATKFM\\resource\\base\\pipeline\\summon.json",
             "savedViewport": {
-                "x": -2641,
-                "y": -562,
-                "zoom": 0.61
+                "x": -3527,
+                "y": -850,
+                "zoom": 0.75
             },
             "filename": "summon",
             "version": "v1.5.0"
+        }
+    },
+    "back_01": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    14,
+                    40,
+                    80,
+                    89
+                ],
+                "expected": [
+                    "<"
+                ],
+                "threshold": 0.1
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "start_summon"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5717,
+                "y": 1983
+            }
         }
     },
     "start_summon": {
@@ -1043,6 +1072,68 @@
             }
         }
     },
+    "summon新建节点27_副本115_副本2_副本6": {
+        "recognition": {
+            "type": "And",
+            "param": {
+                "all_of": [
+                    "summon水屬性",
+                    "summon回復",
+                    "summon貧乳"
+                ]
+            }
+        },
+        "next": [
+            "summon新建节点4_副本1_副本85_副本89_副本90_副本91_副本92_副本108_副本110_副本7"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 8895,
+                "y": 2703
+            }
+        }
+    },
+    "summon新建节点27_副本115_副本2_副本6_副本12": {
+        "recognition": {
+            "type": "And",
+            "param": {
+                "all_of": [
+                    "summon火屬性",
+                    "summon亞人",
+                    "summon削弱"
+                ]
+            }
+        },
+        "next": [
+            "summon新建节点4_副本1_副本85_副本89_副本90_副本91_副本92_副本108_副本110_副本7_副本13"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 8893,
+                "y": 2869
+            }
+        }
+    },
+    "summon新建节点27_副本115_副本2_副本6_副本12_副本16": {
+        "recognition": {
+            "type": "And",
+            "param": {
+                "all_of": [
+                    "summon越戰越強",
+                    "summon削弱"
+                ]
+            }
+        },
+        "next": [
+            "summon新建节点4_副本1_副本85_副本89_副本90_副本91_副本92_副本108_副本110_副本7_副本13_副本18"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 8890,
+                "y": 3064
+            }
+        }
+    },
     "summon新建节点28": {
         "recognition": {
             "type": "OCR",
@@ -1106,6 +1197,72 @@
             "position": {
                 "x": 9780,
                 "y": 2533
+            }
+        }
+    },
+    "summon新建节点29_副本3_副本9": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "貧乳"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "summon新建节点41"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 10063,
+                "y": 2723
+            }
+        }
+    },
+    "summon新建节点29_副本3_副本9_副本15": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "削弱"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "summon新建节点41"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 10064,
+                "y": 2926
+            }
+        }
+    },
+    "summon新建节点29_副本3_副本9_副本15_副本19": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "削弱"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "summon新建节点41"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 9782,
+                "y": 3078
             }
         }
     },
@@ -1473,6 +1630,29 @@
             }
         }
     },
+    "summon新建节点4_副本1_副本85_副本8": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "回復"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "next": [
+            "summon新建节点29_副本3_副本9"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 9784,
+                "y": 2713
+            }
+        }
+    },
     "summon新建节点4_副本1_副本85_副本89": {
         "recognition": {
             "type": "OCR",
@@ -1703,6 +1883,98 @@
             }
         }
     },
+    "summon新建节点4_副本1_副本85_副本89_副本90_副本91_副本92_副本108_副本110_副本7": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "水屬性"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "next": [
+            "summon新建节点4_副本1_副本85_副本8"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 9479,
+                "y": 2652
+            }
+        }
+    },
+    "summon新建节点4_副本1_副本85_副本89_副本90_副本91_副本92_副本108_副本110_副本7_副本13": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "火屬性"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "next": [
+            "summon新建节点4_副本1_副本85_副本8_副本14"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 9476,
+                "y": 2820
+            }
+        }
+    },
+    "summon新建节点4_副本1_副本85_副本89_副本90_副本91_副本92_副本108_副本110_副本7_副本13_副本18": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "越戰越強"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "next": [
+            "summon新建节点29_副本3_副本9_副本15_副本19"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 9476,
+                "y": 3002
+            }
+        }
+    },
+    "summon新建节点4_副本1_副本85_副本8_副本14": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "亞人"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "next": [
+            "summon新建节点29_副本3_副本9_副本15"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 9784,
+                "y": 2859
+            }
+        }
+    },
     "summon新建节点4_副本3": {
         "recognition": {
             "type": "OCR",
@@ -1864,6 +2136,22 @@
             }
         }
     },
+    "summon火屬性": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "火屬性"
+                ]
+            }
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 9174,
+                "y": 1170
+            }
+        }
+    },
     "summon爆發力": {
         "recognition": {
             "type": "OCR",
@@ -1909,6 +2197,38 @@
             "position": {
                 "x": 9173,
                 "y": 848
+            }
+        }
+    },
+    "summon貧乳": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "貧乳"
+                ]
+            }
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 9174,
+                "y": 1126
+            }
+        }
+    },
+    "summon越戰越強": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "越戰越強"
+                ]
+            }
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 9175,
+                "y": 1213
             }
         }
     },
@@ -1973,326 +2293,6 @@
             "position": {
                 "x": 9172,
                 "y": 818
-            }
-        }
-    },
-    "summon貧乳": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "expected": [
-                    "貧乳"
-                ]
-            }
-        },
-        "$__mpe_code": {
-            "position": {
-                "x": 9174,
-                "y": 1126
-            }
-        }
-    },
-    "summon新建节点27_副本115_副本2_副本6": {
-        "recognition": {
-            "type": "And",
-            "param": {
-                "all_of": [
-                    "summon水屬性",
-                    "summon回復",
-                    "summon貧乳"
-                ]
-            }
-        },
-        "next": [
-            "summon新建节点4_副本1_副本85_副本89_副本90_副本91_副本92_副本108_副本110_副本7"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 8895,
-                "y": 2703
-            }
-        }
-    },
-    "summon新建节点4_副本1_副本85_副本89_副本90_副本91_副本92_副本108_副本110_副本7": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "expected": [
-                    "水屬性"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "post_delay": 500,
-        "next": [
-            "summon新建节点4_副本1_副本85_副本8"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 9479,
-                "y": 2652
-            }
-        }
-    },
-    "summon新建节点4_副本1_副本85_副本8": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "expected": [
-                    "回復"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "post_delay": 500,
-        "next": [
-            "summon新建节点29_副本3_副本9"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 9784,
-                "y": 2713
-            }
-        }
-    },
-    "summon新建节点29_副本3_副本9": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "expected": [
-                    "貧乳"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "next": [
-            "summon新建节点41"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 10063,
-                "y": 2723
-            }
-        }
-    },
-    "summon火屬性": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "expected": [
-                    "火屬性"
-                ]
-            }
-        },
-        "$__mpe_code": {
-            "position": {
-                "x": 9174,
-                "y": 1170
-            }
-        }
-    },
-    "summon新建节点27_副本115_副本2_副本6_副本12": {
-        "recognition": {
-            "type": "And",
-            "param": {
-                "all_of": [
-                    "summon火屬性",
-                    "summon亞人",
-                    "summon削弱"
-                ]
-            }
-        },
-        "next": [
-            "summon新建节点4_副本1_副本85_副本89_副本90_副本91_副本92_副本108_副本110_副本7_副本13"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 8893,
-                "y": 2869
-            }
-        }
-    },
-    "summon新建节点4_副本1_副本85_副本89_副本90_副本91_副本92_副本108_副本110_副本7_副本13": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "expected": [
-                    "火屬性"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "post_delay": 500,
-        "next": [
-            "summon新建节点4_副本1_副本85_副本8_副本14"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 9476,
-                "y": 2820
-            }
-        }
-    },
-    "summon新建节点4_副本1_副本85_副本8_副本14": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "expected": [
-                    "亞人"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "post_delay": 500,
-        "next": [
-            "summon新建节点29_副本3_副本9_副本15"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 9784,
-                "y": 2859
-            }
-        }
-    },
-    "summon新建节点29_副本3_副本9_副本15": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "expected": [
-                    "削弱"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "next": [
-            "summon新建节点41"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 10064,
-                "y": 2926
-            }
-        }
-    },
-    "summon新建节点27_副本115_副本2_副本6_副本12_副本16": {
-        "recognition": {
-            "type": "And",
-            "param": {
-                "all_of": [
-                    "summon越戰越強",
-                    "summon削弱"
-                ]
-            }
-        },
-        "next": [
-            "summon新建节点4_副本1_副本85_副本89_副本90_副本91_副本92_副本108_副本110_副本7_副本13_副本18"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 8890,
-                "y": 3064
-            }
-        }
-    },
-    "summon越戰越強": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "expected": [
-                    "越戰越強"
-                ]
-            }
-        },
-        "$__mpe_code": {
-            "position": {
-                "x": 9175,
-                "y": 1213
-            }
-        }
-    },
-    "summon新建节点4_副本1_副本85_副本89_副本90_副本91_副本92_副本108_副本110_副本7_副本13_副本18": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "expected": [
-                    "越戰越強"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "post_delay": 500,
-        "next": [
-            "summon新建节点29_副本3_副本9_副本15_副本19"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 9476,
-                "y": 3002
-            }
-        }
-    },
-    "summon新建节点29_副本3_副本9_副本15_副本19": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "expected": [
-                    "削弱"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "next": [
-            "summon新建节点41"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 9782,
-                "y": 3078
-            }
-        }
-    },
-    "back_01": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    14,
-                    40,
-                    80,
-                    89
-                ],
-                "expected": [
-                    "<"
-                ],
-                "threshold": 0.2
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "next": [
-            "start_summon"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 5717,
-                "y": 1983
             }
         }
     }

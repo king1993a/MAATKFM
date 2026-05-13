@@ -2,13 +2,13 @@
     "$__mpe_config_guild_mail": {
         "$__mpe_code": {
             "prefix": "",
-            "lastSyncTime": 1778654724254,
+            "lastSyncTime": 1778696039998,
             "isModifiedExternally": false,
             "filePath": "D:\\MAATKFM\\resource\\base\\pipeline\\guild_mail.json",
             "savedViewport": {
-                "x": -617,
-                "y": 279,
-                "zoom": 0.8
+                "x": -256,
+                "y": 141,
+                "zoom": 0.75
             },
             "filename": "guild_mail",
             "version": "v1.5.0"
@@ -155,42 +155,13 @@
     },
     "start_guild_mail": {
         "next": [
-            "Test_O1_副本21_副本23_副本37",
+            "Test_O1_副本1_副本11_副本19",
             "start新建节点4_副本22_副本24_副本38"
         ],
         "$__mpe_code": {
             "position": {
                 "x": 1215,
                 "y": 100
-            }
-        }
-    },
-    "Test_O1_副本21_副本23_副本37": {
-        "recognition": {
-            "type": "OCR",
-            "param": {
-                "roi": [
-                    14,
-                    40,
-                    80,
-                    89
-                ],
-                "expected": [
-                    "<"
-                ],
-                "threshold": 0.2
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "next": [
-            "start_guild_mail"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 1560,
-                "y": 309
             }
         }
     },
@@ -220,6 +191,46 @@
             "position": {
                 "x": 1560,
                 "y": 45
+            }
+        }
+    },
+    "Test_O1_副本1_副本11_副本19": {
+        "recognition": {
+            "type": "ColorMatch",
+            "param": {
+                "roi": [
+                    4,
+                    53,
+                    115,
+                    42
+                ],
+                "lower": [
+                    [
+                        200,
+                        200,
+                        200
+                    ]
+                ],
+                "upper": [
+                    [
+                        255,
+                        255,
+                        255
+                    ]
+                ],
+                "count": 3000
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "start_guild_mail"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1576,
+                "y": 328
             }
         }
     }

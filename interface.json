@@ -31,7 +31,7 @@
       "description": "自動領取體力。"
     },
     {
-      "name": "[執行] 自動派遣ㄎ鍊金",
+      "name": "[執行] 自動派遣鍊金",
       "entry": "start_daily_send_alchemy",
       "default_check": true,
       "description": "自動處理鍊金的收成與派遣。"
