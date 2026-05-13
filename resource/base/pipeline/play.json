@@ -2,26 +2,61 @@
     "$__mpe_config_play": {
         "$__mpe_code": {
             "prefix": "",
-            "lastSyncTime": 1778144372056,
+            "lastSyncTime": 1778654726184,
             "isModifiedExternally": false,
-            "filePath": "D:\\MAA_TKFM\\resource\\base\\pipeline\\play.json",
+            "filePath": "D:\\MAATKFM\\resource\\base\\pipeline\\play.json",
             "savedViewport": {
-                "x": -3207,
-                "y": -534,
-                "zoom": 1.06
+                "x": -1877,
+                "y": -267,
+                "zoom": 0.8
             },
             "filename": "play",
             "version": "v1.5.0"
         }
     },
-    "start_play": {
+    "play1新建节点1": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    354,
+                    827,
+                    17,
+                    20
+                ]
+            }
+        },
+        "post_delay": 1000,
         "next": [
-            "play新建节点14"
+            "play新建节点23_副本17"
         ],
         "$__mpe_code": {
             "position": {
-                "x": 3294,
-                "y": 805
+                "x": 6926,
+                "y": 594
+            }
+        }
+    },
+    "play1新建节点3": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    340,
+                    715,
+                    37,
+                    11
+                ]
+            }
+        },
+        "post_delay": 1000,
+        "next": [
+            "play新建节点23_副本17"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 7186,
+                "y": 336
             }
         }
     },
@@ -258,7 +293,7 @@
             }
         },
         "next": [
-            "play新建节点5"
+            "play新建节点211"
         ],
         "$__mpe_code": {
             "position": {
@@ -323,6 +358,29 @@
             "position": {
                 "x": 6098,
                 "y": 850
+            }
+        }
+    },
+    "play新建节点211": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    211,
+                    723,
+                    37,
+                    28
+                ]
+            }
+        },
+        "post_delay": 1000,
+        "next": [
+            "play1新建节点3"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 6940,
+                "y": 334
             }
         }
     },
@@ -470,7 +528,7 @@
             }
         },
         "next": [
-            "play新建节点3"
+            "play1新建节点1"
         ],
         "$__mpe_code": {
             "position": {
@@ -479,58 +537,59 @@
             }
         }
     },
-    "play新建节点3": {
-        "recognition": {
-            "type": "TemplateMatch",
-            "param": {
-                "template": [
-                    "close_notice.png"
-                ]
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "post_delay": 1000,
+    "start_play": {
         "next": [
-            "play新建节点23_副本17"
+            "Test_O1_副本21_副本23_副本39",
+            "start新建节点4_副本22_副本24_副本40"
         ],
         "$__mpe_code": {
             "position": {
-                "x": 6947,
-                "y": 567
+                "x": 2809,
+                "y": 808
             }
         }
     },
-    "play新建节点5": {
+    "Test_O1_副本21_副本23_副本39": {
         "recognition": {
             "type": "OCR",
             "param": {
+                "roi": [
+                    14,
+                    40,
+                    80,
+                    89
+                ],
                 "expected": [
-                    "取消"
-                ]
+                    "<"
+                ],
+                "threshold": 0.2
             }
         },
         "action": {
             "type": "Click"
         },
-        "post_delay": 1000,
         "next": [
-            "play新建节点5_副本2"
+            "start_play"
         ],
         "$__mpe_code": {
             "position": {
-                "x": 6939,
-                "y": 341
+                "x": 3219,
+                "y": 1022
             }
         }
     },
-    "play新建节点5_副本2": {
+    "start新建节点4_副本22_副本24_副本40": {
         "recognition": {
             "type": "OCR",
             "param": {
+                "roi": [
+                    75,
+                    1175,
+                    109,
+                    63
+                ],
                 "expected": [
-                    "確定"
+                    "城堡"
                 ]
             }
         },
@@ -539,12 +598,12 @@
         },
         "post_delay": 1000,
         "next": [
-            "play新建节点23_副本17"
+            "play新建节点14"
         ],
         "$__mpe_code": {
             "position": {
-                "x": 7205,
-                "y": 340
+                "x": 3219,
+                "y": 758
             }
         }
     }

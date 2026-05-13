@@ -22,7 +22,7 @@
       "name": "[全局] 啟動遊戲",
       "entry": "start_start_game",
       "default_check": true,
-      "description": "從桌面啟動遊戲等45秒處理登入與公告。"
+      "description": "最新版本可至 GitHub 下載：<br><a href=\"https://github.com/king1993a/MAATKFM\">king1993a/MAATKFM</a><br><br>從桌面啟動遊戲後，系統將等待 25 秒以處理登入與公告。。"
     },
     {
       "name": "[執行] 獲取體力",
@@ -31,10 +31,10 @@
       "description": "自動領取體力。"
     },
     {
-      "name": "[執行] 自動派發鍊金",
+      "name": "[執行] 自動派遣ㄎ鍊金",
       "entry": "start_daily_send_alchemy",
       "default_check": true,
-      "description": "自動處理鍊金工作坊的收成與派發。"
+      "description": "自動處理鍊金的收成與派遣。"
     },
         {
       "name": "[執行] 自動活動戰鬥",
@@ -77,6 +77,39 @@
       "entry": "start_guild_mail",
       "default_check": true,
       "description": "自動領取公會獎勵與信箱補償。"
+    },
+    {
+            "name": "[執行]自動招募",
+            "entry": "start_summon",
+            "option": [
+            "結束後返回主畫面"
+            ],
+            "description": "自動招募直到直到沒有可招募格子(最大4次)領袖不自動招募。"
     }
-  ]
+  ],
+  "option":{
+      "結束後返回主畫面": {
+      "type": "switch",
+      "label": "結束後是否返回主畫面",
+      "description": "結束後是否返回主畫面(右邊yes左邊no)",
+      "cases": [
+        {
+          "name": "Yes",
+          "pipeline_override": {
+            "summon_noback": {
+              "enabled": false
+            }
+          }
+        },
+        {
+          "name": "No",
+          "pipeline_override": {
+            "summon_back": {
+              "enabled": false
+            }
+          }
+        }
+      ]
+    }
+  }
 }

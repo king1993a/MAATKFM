@@ -1,24 +1,72 @@
 {
     "$__mpe_config_daily_quest": {
         "$__mpe_code": {
-            "filename": "daily_quest",
             "prefix": "",
+            "lastSyncTime": 1778654700874,
+            "isModifiedExternally": false,
+            "filePath": "D:\\MAATKFM\\resource\\base\\pipeline\\daily_quest.json",
             "savedViewport": {
-                "x": 298,
-                "y": 294,
-                "zoom": 0.86
+                "x": 648,
+                "y": 353,
+                "zoom": 0.8
             },
+            "filename": "daily_quest",
             "version": "v1.5.0"
         }
     },
-    "quest新建节点4": {
-        "$__mpe_code": {
-            "position": {
-                "x": 219,
-                "y": 79
+    "quest新建节点1": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    90,
+                    508,
+                    559,
+                    260
+                ],
+                "expected": [
+                    "可領取的物品"
+                ]
             }
         },
+        "next": [
+            "quest新建节点1_副本1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1440,
+                "y": 78
+            }
+        }
+    },
+    "quest新建节点1_副本1": {
+        "recognition": {
+            "type": "OCR"
+        },
         "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    339,
+                    712,
+                    43,
+                    16
+                ]
+            }
+        },
+        "next": [
+            "quest新建节点4_副本2"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1736,
+                "y": 87
+            }
+        }
+    },
+    "quest新建节点4": {
+        "action": {
+            "type": "Click",
             "param": {
                 "target": [
                     648,
@@ -26,22 +74,22 @@
                     20,
                     17
                 ]
-            },
-            "type": "Click"
+            }
         },
+        "post_delay": 1000,
         "next": [
             "quest新建节点5"
         ],
-        "post_delay": 1000
-    },
-    "quest新建节点4_副本1": {
         "$__mpe_code": {
             "position": {
-                "x": 1107,
-                "y": 60
+                "x": 219,
+                "y": 79
             }
-        },
+        }
+    },
+    "quest新建节点4_副本1": {
         "action": {
+            "type": "Click",
             "param": {
                 "target": [
                     326,
@@ -49,24 +97,25 @@
                     68,
                     23
                 ]
-            },
-            "type": "Click"
-        },
-        "next": [
-            "quest新建节点7"
-        ],
-        "post_delay": 1000,
-        "repeat": 2,
-        "repeat_delay": 1000
-    },
-    "quest新建节点4_副本2": {
-        "$__mpe_code": {
-            "position": {
-                "x": 818,
-                "y": 358
             }
         },
+        "repeat": 2,
+        "repeat_delay": 1000,
+        "post_delay": 1000,
+        "next": [
+            "quest新建节点1",
+            "quest新建节点7"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1115,
+                "y": 51
+            }
+        }
+    },
+    "quest新建节点4_副本2": {
         "action": {
+            "type": "Click",
             "param": {
                 "target": [
                     352,
@@ -74,38 +123,31 @@
                     23,
                     31
                 ]
-            },
-            "type": "Click"
+            }
         },
-        "post_delay": 1000
+        "post_delay": 1000,
+        "$__mpe_code": {
+            "position": {
+                "x": 793,
+                "y": 391
+            }
+        }
     },
     "quest新建节点5": {
+        "next": [
+            "quest新建节点6",
+            "quest新建节点4_副本2"
+        ],
         "$__mpe_code": {
             "position": {
                 "x": 496,
                 "y": 108
             }
-        },
-        "next": [
-            "quest新建节点6",
-            "quest新建节点4_副本2"
-        ]
+        }
     },
     "quest新建节点6": {
-        "$__mpe_code": {
-            "position": {
-                "x": 802,
-                "y": 50
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "next": [
-            "quest新建节点4_副本1"
-        ],
-        "post_delay": 500,
         "recognition": {
+            "type": "TemplateMatch",
             "param": {
                 "template": [
                     "quest_red_p.png"
@@ -113,30 +155,101 @@
                 "threshold": [
                     0.6
                 ]
-            },
-            "type": "TemplateMatch"
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "next": [
+            "quest新建节点4_副本1"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 802,
+                "y": 50
+            }
         }
     },
     "quest新建节点7": {
+        "next": [
+            "quest新建节点5"
+        ],
         "$__mpe_code": {
             "position": {
                 "x": 788,
                 "y": -126
             }
-        },
-        "next": [
-            "quest新建节点5"
-        ]
+        }
     },
     "start_daily_quest": {
+        "next": [
+            "Test_O1_副本21_副本23_副本27",
+            "start新建节点4_副本22_副本24_副本28"
+        ],
         "$__mpe_code": {
             "position": {
-                "x": -101,
-                "y": 120
+                "x": -362,
+                "y": 107
+            }
+        }
+    },
+    "Test_O1_副本21_副本23_副本27": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    14,
+                    40,
+                    80,
+                    89
+                ],
+                "expected": [
+                    "<"
+                ],
+                "threshold": 0.2
             }
         },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "start_daily_quest"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -76,
+                "y": 338
+            }
+        }
+    },
+    "start新建节点4_副本22_副本24_副本28": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    75,
+                    1175,
+                    109,
+                    63
+                ],
+                "expected": [
+                    "城堡"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 1000,
         "next": [
             "quest新建节点4"
-        ]
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -81,
+                "y": 68
+            }
+        }
     }
 }

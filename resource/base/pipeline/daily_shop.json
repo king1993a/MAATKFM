@@ -2,16 +2,28 @@
     "$__mpe_config_daily_shop": {
         "$__mpe_code": {
             "prefix": "",
-            "lastSyncTime": 1778140555638,
+            "lastSyncTime": 1778655379666,
             "isModifiedExternally": false,
-            "filePath": "D:\\MAA_TKFM\\resource\\base\\pipeline\\daily_shop.json",
+            "filePath": "D:\\MAATKFM\\resource\\base\\pipeline\\daily_shop.json",
             "savedViewport": {
-                "x": -15365,
-                "y": -1894,
-                "zoom": 1.39
+                "x": -8622,
+                "y": -1004,
+                "zoom": 0.8
             },
             "filename": "daily_shop",
             "version": "v1.5.0"
+        }
+    },
+    "start_daily_shop": {
+        "next": [
+            "Test_O1_副本21_副本23_副本31",
+            "start新建节点4_副本22_副本24_副本32"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 11175,
+                "y": 1712
+            }
         }
     },
     "新建节点69": {
@@ -983,14 +995,61 @@
             }
         }
     },
-    "start_daily_shop": {
+    "Test_O1_副本21_副本23_副本31": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    14,
+                    40,
+                    80,
+                    89
+                ],
+                "expected": [
+                    "<"
+                ],
+                "threshold": 0.2
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "start_daily_shop"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 11497,
+                "y": 1931
+            }
+        }
+    },
+    "start新建节点4_副本22_副本24_副本32": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    75,
+                    1175,
+                    109,
+                    63
+                ],
+                "expected": [
+                    "城堡"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 1000,
         "next": [
             "新建节点69"
         ],
         "$__mpe_code": {
             "position": {
-                "x": 11525,
-                "y": 1701
+                "x": 11497,
+                "y": 1667
             }
         }
     }

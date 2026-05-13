@@ -2,13 +2,13 @@
     "$__mpe_config_daily_lvup": {
         "$__mpe_code": {
             "prefix": "",
-            "lastSyncTime": 1778140674320,
+            "lastSyncTime": 1778654692010,
             "isModifiedExternally": false,
-            "filePath": "D:\\MAA_TKFM\\resource\\base\\pipeline\\daily_lvup.json",
+            "filePath": "D:\\MAATKFM\\resource\\base\\pipeline\\daily_lvup.json",
             "savedViewport": {
-                "x": -211,
-                "y": 162,
-                "zoom": 1.39
+                "x": 341,
+                "y": 223,
+                "zoom": 1.06
             },
             "filename": "daily_lvup",
             "version": "v1.5.0"
@@ -35,6 +35,18 @@
             "position": {
                 "x": 757,
                 "y": 87
+            }
+        }
+    },
+    "start_daily_lvup": {
+        "next": [
+            "Test_O1_副本21_副本23_副本25",
+            "start新建节点4_副本22_副本24_副本26"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 68,
+                "y": 126
             }
         }
     },
@@ -404,14 +416,61 @@
             }
         }
     },
-    "start_daily_lvup": {
+    "Test_O1_副本21_副本23_副本25": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    14,
+                    40,
+                    80,
+                    89
+                ],
+                "expected": [
+                    "<"
+                ],
+                "threshold": 0.2
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "start_daily_lvup"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 425,
+                "y": 335
+            }
+        }
+    },
+    "start新建节点4_副本22_副本24_副本26": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    75,
+                    1175,
+                    109,
+                    63
+                ],
+                "expected": [
+                    "城堡"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 1000,
         "next": [
             "lvup"
         ],
         "$__mpe_code": {
             "position": {
-                "x": 400,
-                "y": 127
+                "x": 414,
+                "y": 71
             }
         }
     }

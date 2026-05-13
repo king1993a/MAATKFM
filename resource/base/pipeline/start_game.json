@@ -2,16 +2,45 @@
     "$__mpe_config_start_game": {
         "$__mpe_code": {
             "prefix": "",
-            "lastSyncTime": 1778149080165,
+            "lastSyncTime": 1778654616704,
             "isModifiedExternally": false,
-            "filePath": "D:\\MAA_TKFM\\resource\\base\\pipeline\\start_game.json",
+            "filePath": "D:\\MAATKFM\\resource\\base\\pipeline\\start_game.json",
             "savedViewport": {
-                "x": 1425,
-                "y": 40,
-                "zoom": 1.14
+                "x": 1217,
+                "y": 529,
+                "zoom": 0.61
             },
             "filename": "start_game",
             "version": "v1.5.0"
+        }
+    },
+    "Test_O1": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    14,
+                    40,
+                    80,
+                    89
+                ],
+                "expected": [
+                    "<"
+                ],
+                "threshold": 0.2
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "start新建节点3"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -696,
+                "y": -391
+            }
         }
     },
     "Test_Open_App": {
@@ -29,20 +58,39 @@
         "action": {
             "type": "Click"
         },
-        "post_delay": 45000,
-        "timeout": 20000,
+        "post_delay": 25000,
+        "next": [
+            "start新建节点3"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -687,
+                "y": 20
+            }
+        }
+    },
+    "Test_Open_App_副本1": {
+        "recognition": {
+            "type": "Or",
+            "param": {
+                "any_of": [
+                    "start_check1",
+                    "start_check2",
+                    "start_check3"
+                ]
+            }
+        },
         "next": [
             "open1"
         ],
         "$__mpe_code": {
             "position": {
-                "x": -685,
-                "y": 79
+                "x": -680,
+                "y": 345
             }
         }
     },
     "open1": {
-        "enabled": true,
         "action": {
             "type": "Click",
             "param": {
@@ -55,100 +103,143 @@
             }
         },
         "repeat": 10,
-        "repeat_delay": 2000,
+        "repeat_delay": 1000,
+        "post_delay": 1000,
         "next": [
-            "open2"
+            "start新建节点3"
         ],
         "$__mpe_code": {
             "position": {
-                "x": -409,
-                "y": 84
+                "x": -336,
+                "y": 105
             }
         }
     },
-    "open2": {
-        "action": {
-            "type": "Click",
+    "start_check1": {
+        "recognition": {
+            "type": "TemplateMatch",
             "param": {
-                "target": [
-                    27,
-                    52,
-                    68,
-                    42
+                "template": [
+                    "close_notice.png"
+                ],
+                "threshold": [
+                    0.85
                 ]
             }
         },
-        "repeat": 3,
-        "repeat_delay": 1000,
-        "next": [
-            "open3"
-        ],
         "$__mpe_code": {
             "position": {
-                "x": -105,
-                "y": 82
+                "x": -391,
+                "y": 420
             }
         }
     },
-    "open3": {
-        "action": {
-            "type": "Click",
+    "start_check2": {
+        "recognition": {
+            "type": "TemplateMatch",
             "param": {
-                "target": [
-                    87,
-                    1180,
-                    79,
-                    59
+                "template": [
+                    "daily_sign.png"
+                ],
+                "threshold": [
+                    0.85
                 ]
             }
         },
-        "repeat": 3,
-        "repeat_delay": 1000,
         "$__mpe_code": {
             "position": {
-                "x": 180,
-                "y": 88
+                "x": -134,
+                "y": 421
+            }
+        }
+    },
+    "start_check3": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "start2.png"
+                ]
+            }
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 121,
+                "y": 425
+            }
+        }
+    },
+    "start_check4": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "back_arrow2.png"
+                ]
+            }
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 371,
+                "y": 440
             }
         }
     },
     "start_start_game": {
         "next": [
+            "start新建节点3"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -1432,
+                "y": 145
+            }
+        }
+    },
+    "start新建节点3": {
+        "next": [
+            "Test_Open_App",
+            "Test_Open_App_副本1",
+            "Test_O1",
             "start新建节点4"
         ],
         "$__mpe_code": {
             "position": {
-                "x": -1326,
-                "y": 159
+                "x": -1045,
+                "y": 141
             }
         }
     },
     "start新建节点4": {
-        "action": {
-            "type": "Shell",
+        "recognition": {
+            "type": "OCR",
             "param": {
-                "cmd": "input keyevent 3"
+                "roi": [
+                    75,
+                    1175,
+                    109,
+                    63
+                ],
+                "expected": [
+                    "城堡"
+                ]
             }
         },
-        "post_delay": 5000,
-        "next": [
-            "Test_Open_App",
-            "start新建节点6"
-        ],
+        "action": {
+            "type": "Click"
+        },
         "$__mpe_code": {
             "position": {
-                "x": -1014,
-                "y": 124
+                "x": -692,
+                "y": -168
             }
         }
     },
-    "start新建节点6": {
-        "action": {
-            "type": "StopTask"
-        },
+    "新建节点1": {
         "$__mpe_code": {
             "position": {
-                "x": -686,
-                "y": 446
+                "x": 233,
+                "y": 687
             }
         }
     }

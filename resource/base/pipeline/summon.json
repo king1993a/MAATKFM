@@ -1,0 +1,2299 @@
+{
+    "$__mpe_config_summon": {
+        "$__mpe_code": {
+            "prefix": "",
+            "lastSyncTime": 1778654587420,
+            "isModifiedExternally": false,
+            "filePath": "D:\\MAATKFM\\resource\\base\\pipeline\\summon.json",
+            "savedViewport": {
+                "x": -2641,
+                "y": -562,
+                "zoom": 0.61
+            },
+            "filename": "summon",
+            "version": "v1.5.0"
+        }
+    },
+    "start_summon": {
+        "next": [
+            "summon新建节点3",
+            "summon新建节点2",
+            "summon新建节点2_副本1",
+            "summon1新建节点4",
+            "back_01"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5419,
+                "y": 1111
+            }
+        }
+    },
+    "summon1新建节点10": {
+        "max_hit": 1,
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    307,
+                    215,
+                    105,
+                    121
+                ],
+                "expected": [
+                    "張貼"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 1000,
+        "next": [
+            "summon新建节点32"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 7422,
+                "y": 393
+            }
+        }
+    },
+    "summon1新建节点10_副本2": {
+        "max_hit": 1,
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    301,
+                    413,
+                    123,
+                    151
+                ],
+                "expected": [
+                    "張貼"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 1000,
+        "next": [
+            "summon新建节点32"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 7414,
+                "y": 704
+            }
+        }
+    },
+    "summon1新建节点10_副本2_副本3": {
+        "max_hit": 1,
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    303,
+                    623,
+                    111,
+                    146
+                ],
+                "expected": [
+                    "張貼"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 1000,
+        "next": [
+            "summon新建节点32"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 7419,
+                "y": 1009
+            }
+        }
+    },
+    "summon1新建节点10_副本2_副本3_副本4": {
+        "max_hit": 1,
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    305,
+                    839,
+                    111,
+                    136
+                ],
+                "expected": [
+                    "張貼"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 1000,
+        "next": [
+            "summon新建节点32"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 7409,
+                "y": 1338
+            }
+        }
+    },
+    "summon1新建节点13": {
+        "next": [
+            "summon_select"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 9000,
+                "y": -647
+            }
+        }
+    },
+    "summon1新建节点4": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "召喚"
+                ]
+            }
+        },
+        "next": [
+            "summon1新建节点5"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5716,
+                "y": 1779
+            }
+        }
+    },
+    "summon1新建节点5": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    200,
+                    1152,
+                    7,
+                    9
+                ]
+            }
+        },
+        "post_delay": 1000,
+        "next": [
+            "start_summon"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5974,
+                "y": 1759
+            }
+        }
+    },
+    "summon1新建节点6": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    264,
+                    1027,
+                    191,
+                    41
+                ],
+                "expected": [
+                    "錄取"
+                ],
+                "threshold": 0.7
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 3000,
+        "next": [
+            "summon1新建节点8"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 6118,
+                "y": 926
+            }
+        }
+    },
+    "summon1新建节点7": {
+        "next": [
+            "summon_select"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 6230,
+                "y": 1249
+            }
+        }
+    },
+    "summon1新建节点8": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    557,
+                    63,
+                    48,
+                    25
+                ]
+            }
+        },
+        "repeat": 2,
+        "repeat_delay": 500,
+        "post_delay": 3000,
+        "next": [
+            "summon1新建节点9"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 6375,
+                "y": 921
+            }
+        }
+    },
+    "summon1新建节点9": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    335,
+                    1191,
+                    45,
+                    25
+                ]
+            }
+        },
+        "post_delay": 500,
+        "next": [
+            "summon_select"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 6643,
+                "y": 946
+            }
+        }
+    },
+    "summon43": {
+        "recognition": {
+            "type": "And",
+            "param": {
+                "all_of": [
+                    "summon_ticket"
+                ]
+            }
+        },
+        "next": [
+            "summon新建节点34"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 10730,
+                "y": 1061
+            }
+        }
+    },
+    "summon_back": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    24,
+                    55,
+                    26,
+                    34
+                ]
+            }
+        },
+        "post_delay": 1000,
+        "$__mpe_code": {
+            "position": {
+                "x": 7406,
+                "y": 1647
+            }
+        }
+    },
+    "summon_coin": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    355,
+                    961,
+                    118,
+                    21
+                ],
+                "expected": [
+                    "[2-9][0-9]{3}"
+                ],
+                "replace": []
+            }
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 10722,
+                "y": 783
+            }
+        }
+    },
+    "summon_noback": {
+        "$__mpe_code": {
+            "position": {
+                "x": 7407,
+                "y": 1877
+            }
+        }
+    },
+    "summon_select": {
+        "next": [
+            "summon1新建节点10",
+            "summon1新建节点10_副本2",
+            "summon1新建节点10_副本2_副本3",
+            "summon1新建节点10_副本2_副本3_副本4",
+            "summon_back",
+            "summon_noback"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 6964,
+                "y": 962
+            }
+        }
+    },
+    "summon_ticket": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    261,
+                    959,
+                    64,
+                    22
+                ],
+                "expected": [
+                    "[1-9][0-9]*"
+                ],
+                "replace": [
+                    [
+                        ",",
+                        ""
+                    ]
+                ]
+            }
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 10477,
+                "y": 781
+            }
+        }
+    },
+    "summon亞人": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "亞人"
+                ]
+            }
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 9171,
+                "y": 748
+            }
+        }
+    },
+    "summon人類": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "人類"
+                ]
+            }
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 9174,
+                "y": 915
+            }
+        }
+    },
+    "summon保護": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "保護"
+                ]
+            }
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 9167,
+                "y": 607
+            }
+        }
+    },
+    "summon光屬性": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "光屬性"
+                ]
+            }
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 9173,
+                "y": 719
+            }
+        }
+    },
+    "summon削弱": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "削弱"
+                ]
+            }
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 9170,
+                "y": 677
+            }
+        }
+    },
+    "summon回復": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "回復"
+                ]
+            }
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 9168,
+                "y": 494
+            }
+        }
+    },
+    "summon守護者": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "守護者"
+                ]
+            }
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 9169,
+                "y": 529
+            }
+        }
+    },
+    "summon巨乳": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "巨乳"
+                ]
+            }
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 9176,
+                "y": 1005
+            }
+        }
+    },
+    "summon干擾": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "干擾"
+                ]
+            }
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 9174,
+                "y": 975
+            }
+        }
+    },
+    "summon新建节点11": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "支援"
+                ]
+            }
+        },
+        "next": [
+            "summon新建节点11_副本82"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 8909,
+                "y": 217
+            }
+        }
+    },
+    "summon新建节点11_副本82": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "支援"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "summon新建节点41"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 9203,
+                "y": 221
+            }
+        }
+    },
+    "summon新建节点13": {
+        "recognition": {
+            "type": "And",
+            "param": {
+                "all_of": [
+                    "summon輸出",
+                    "summon削弱"
+                ]
+            }
+        },
+        "next": [
+            "summon新建节点4_副本1_副本85_副本89"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 8911,
+                "y": 841
+            }
+        }
+    },
+    "summon新建节点14": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "削弱"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "summon新建节点41"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 9759,
+                "y": 889
+            }
+        }
+    },
+    "summon新建节点16": {
+        "recognition": {
+            "type": "And",
+            "param": {
+                "all_of": [
+                    "summon光屬性",
+                    "summon亞人"
+                ]
+            }
+        },
+        "next": [
+            "summon新建节点4_副本1_副本85_副本89_副本90"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 8902,
+                "y": 1053
+            }
+        }
+    },
+    "summon新建节点17": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "亞人"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "summon新建节点41"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 9759,
+                "y": 1044
+            }
+        }
+    },
+    "summon新建节点18": {
+        "recognition": {
+            "type": "And",
+            "param": {
+                "all_of": [
+                    "summon風屬性",
+                    "summon群體攻擊"
+                ]
+            }
+        },
+        "next": [
+            "summon新建节点4_副本1_副本85_副本89_副本90_副本91"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 8906,
+                "y": 1237
+            }
+        }
+    },
+    "summon新建节点19": {
+        "recognition": {
+            "type": "And",
+            "param": {
+                "all_of": [
+                    "summon回復",
+                    "summon守護者"
+                ]
+            }
+        },
+        "next": [
+            "summon新建节点19_副本87"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 8912,
+                "y": 541
+            }
+        }
+    },
+    "summon新建节点19_副本87": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "守護者"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "summon新建节点41"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 9748,
+                "y": 549
+            }
+        }
+    },
+    "summon新建节点2": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "summon.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    439,
+                    1033,
+                    76,
+                    45
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "next": [
+            "start_summon"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5713,
+                "y": 1143
+            }
+        }
+    },
+    "summon新建节点20_副本86": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "保護"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "summon新建节点41"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 9750,
+                "y": 371
+            }
+        }
+    },
+    "summon新建节点21": {
+        "recognition": {
+            "type": "And",
+            "param": {
+                "all_of": [
+                    "summon水屬性",
+                    "summon防禦"
+                ]
+            }
+        },
+        "next": [
+            "summon新建节点4_副本1_副本85_副本89_副本90_副本91_副本92"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 8915,
+                "y": 1395
+            }
+        }
+    },
+    "summon新建节点21_副本93": {
+        "recognition": {
+            "type": "And",
+            "param": {
+                "all_of": [
+                    "summon水屬性",
+                    "summon人類",
+                    "summon生存力"
+                ]
+            }
+        },
+        "next": [
+            "summon新建节点4_副本1_副本85_副本89_副本90_副本91_副本92_副本108"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 8908,
+                "y": 1604
+            }
+        }
+    },
+    "summon新建节点21_副本93_副本109": {
+        "recognition": {
+            "type": "And",
+            "param": {
+                "all_of": [
+                    "summon水屬性",
+                    "summon亞人",
+                    "summon干擾"
+                ]
+            }
+        },
+        "next": [
+            "summon新建节点4_副本1_副本85_副本89_副本90_副本91_副本92_副本108_副本110"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 8902,
+                "y": 1800
+            }
+        }
+    },
+    "summon新建节点22": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "防禦"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "summon新建节点41"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 9768,
+                "y": 1407
+            }
+        }
+    },
+    "summon新建节点23": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "人類"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "next": [
+            "summon新建节点24"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 9760,
+                "y": 1573
+            }
+        }
+    },
+    "summon新建节点23_副本111": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "亞人"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "next": [
+            "summon新建节点30_副本4"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 9769,
+                "y": 1752
+            }
+        }
+    },
+    "summon新建节点24": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "生存力"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "summon新建节点41"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 10030,
+                "y": 1597
+            }
+        }
+    },
+    "summon新建节点25": {
+        "recognition": {
+            "type": "And",
+            "param": {
+                "all_of": [
+                    "summon闇屬性",
+                    "summon巨乳"
+                ]
+            }
+        },
+        "next": [
+            "summon新建节点4_副本1_副本85_副本89_副本90_副本91_副本92_副本108_副本110_副本112"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 8887,
+                "y": 2010
+            }
+        }
+    },
+    "summon新建节点26": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "巨乳"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "summon新建节点41"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 9762,
+                "y": 2002
+            }
+        }
+    },
+    "summon新建节点27": {
+        "recognition": {
+            "type": "And",
+            "param": {
+                "all_of": [
+                    "summon削弱",
+                    "summon光屬性"
+                ]
+            }
+        },
+        "next": [
+            "summon新建节点4_副本1_副本85_副本89_副本90_副本91_副本92_副本108_副本110_副本112_副本113"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 8890,
+                "y": 2201
+            }
+        }
+    },
+    "summon新建节点27_副本115": {
+        "recognition": {
+            "type": "And",
+            "param": {
+                "all_of": [
+                    "summon削弱",
+                    "summon群體攻擊"
+                ]
+            }
+        },
+        "next": [
+            "summon新建节点4_副本1_副本85_副本89_副本90_副本91_副本92_副本108_副本110_副本112_副本113_副本114"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 8897,
+                "y": 2357
+            }
+        }
+    },
+    "summon新建节点27_副本115_副本2": {
+        "recognition": {
+            "type": "And",
+            "param": {
+                "all_of": [
+                    "summon爆發力",
+                    "summon群體攻擊"
+                ]
+            }
+        },
+        "next": [
+            "summon新建节点4_副本1_副本85_副本89_副本90_副本91_副本92_副本108_副本110_副本112_副本113_副本114_副本4"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 8903,
+                "y": 2524
+            }
+        }
+    },
+    "summon新建节点28": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "光屬性"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "summon新建节点41"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 9772,
+                "y": 2198
+            }
+        }
+    },
+    "summon新建节点29": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "群體攻擊"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "summon新建节点41"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 9774,
+                "y": 2366
+            }
+        }
+    },
+    "summon新建节点29_副本3": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "群體攻擊"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "summon新建节点41"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 9780,
+                "y": 2533
+            }
+        }
+    },
+    "summon新建节点2_副本1": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    64,
+                    1166,
+                    124,
+                    73
+                ],
+                "expected": [
+                    "城堡"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 2000,
+        "next": [
+            "start_summon"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5718,
+                "y": 1457
+            }
+        }
+    },
+    "summon新建节点3": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    92,
+                    114,
+                    110,
+                    39
+                ],
+                "expected": [
+                    "全境徵才"
+                ]
+            }
+        },
+        "next": [
+            "summon1新建节点6",
+            "summon1新建节点7"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5709,
+                "y": 948
+            }
+        }
+    },
+    "summon新建节点30_副本4": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "干擾"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "summon新建节点41"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 10043,
+                "y": 1801
+            }
+        }
+    },
+    "summon新建节点31": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    523,
+                    626,
+                    26,
+                    32
+                ],
+                "expected": [
+                    "[1-9]"
+                ]
+            }
+        },
+        "next": [
+            "summon新建节点33"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 8932,
+                "y": 3310
+            }
+        }
+    },
+    "summon新建节点32": {
+        "next": [
+            "summon新建节点9",
+            "summon新建节点7",
+            "summon新建节点6",
+            "summon新建节点11",
+            "summon新建节点4_副本1",
+            "summon新建节点19",
+            "summon新建节点4",
+            "summon新建节点13",
+            "summon新建节点16",
+            "summon新建节点18",
+            "summon新建节点21",
+            "summon新建节点21_副本93",
+            "summon新建节点21_副本93_副本109",
+            "summon新建节点25",
+            "summon新建节点27",
+            "summon新建节点27_副本115",
+            "summon新建节点27_副本115_副本2",
+            "summon新建节点27_副本115_副本2_副本6",
+            "summon新建节点27_副本115_副本2_副本6_副本12",
+            "summon新建节点27_副本115_副本2_副本6_副本12_副本16",
+            "summon新建节点31",
+            "summon新建节点35"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 8284,
+                "y": 1017
+            }
+        }
+    },
+    "summon新建节点33": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    596,
+                    633,
+                    15,
+                    15
+                ]
+            }
+        },
+        "post_delay": 500,
+        "next": [
+            "summon新建节点32"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 9229,
+                "y": 3298
+            }
+        }
+    },
+    "summon新建节点34": {
+        "pre_delay": 500,
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    171,
+                    337,
+                    37,
+                    28
+                ]
+            }
+        },
+        "post_wait_freezes": 500,
+        "next": [
+            "summon新建节点34_副本116"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 11061,
+                "y": 1037
+            }
+        }
+    },
+    "summon新建节点34_副本116": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    456,
+                    1030,
+                    76,
+                    31
+                ]
+            }
+        },
+        "post_wait_freezes": 500,
+        "next": [
+            "summon1新建节点13"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 11325,
+                "y": 1053
+            }
+        }
+    },
+    "summon新建节点35": {
+        "next": [
+            "summon新建节点41"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 9064,
+                "y": 3519
+            }
+        }
+    },
+    "summon新建节点4": {
+        "recognition": {
+            "type": "And",
+            "param": {
+                "all_of": [
+                    "summon回復",
+                    "summon防禦"
+                ]
+            }
+        },
+        "next": [
+            "summon新建节点4_副本1_副本85"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 8920,
+                "y": 695
+            }
+        }
+    },
+    "summon新建节点41": {
+        "next": [
+            "summon43",
+            "summon新建节点45"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 10438,
+                "y": 1068
+            }
+        }
+    },
+    "summon新建节点44": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    27,
+                    63,
+                    23,
+                    20
+                ]
+            }
+        },
+        "post_delay": 2000,
+        "$__mpe_code": {
+            "position": {
+                "x": 10970,
+                "y": 1296
+            }
+        }
+    },
+    "summon新建节点45": {
+        "next": [
+            "summon新建节点44"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 10624,
+                "y": 1275
+            }
+        }
+    },
+    "summon新建节点4_副本1": {
+        "recognition": {
+            "type": "And",
+            "param": {
+                "all_of": [
+                    "summon回復",
+                    "summon保護"
+                ]
+            }
+        },
+        "next": [
+            "summon新建节点4_副本1_副本83"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 8913,
+                "y": 378
+            }
+        }
+    },
+    "summon新建节点4_副本1_副本83": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "回復"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "next": [
+            "summon新建节点20_副本86"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 9478,
+                "y": 362
+            }
+        }
+    },
+    "summon新建节点4_副本1_副本84": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "回復"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "$__mpe_code": {
+            "position": {
+                "x": 9481,
+                "y": 541
+            }
+        }
+    },
+    "summon新建节点4_副本1_副本85": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "回復"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "next": [
+            "summon新建节点4_副本88"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 9484,
+                "y": 702
+            }
+        }
+    },
+    "summon新建节点4_副本1_副本85_副本89": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "輸出"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "next": [
+            "summon新建节点14"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 9482,
+                "y": 835
+            }
+        }
+    },
+    "summon新建节点4_副本1_副本85_副本89_副本90": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "光屬性"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "next": [
+            "summon新建节点17"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 9482,
+                "y": 964
+            }
+        }
+    },
+    "summon新建节点4_副本1_副本85_副本89_副本90_副本91": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "風屬性"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "next": [
+            "summon新建节点4_副本3"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 9488,
+                "y": 1195
+            }
+        }
+    },
+    "summon新建节点4_副本1_副本85_副本89_副本90_副本91_副本92": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "水屬性"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "next": [
+            "summon新建节点22"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 9483,
+                "y": 1359
+            }
+        }
+    },
+    "summon新建节点4_副本1_副本85_副本89_副本90_副本91_副本92_副本108": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "水屬性"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "next": [
+            "summon新建节点23"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 9479,
+                "y": 1538
+            }
+        }
+    },
+    "summon新建节点4_副本1_副本85_副本89_副本90_副本91_副本92_副本108_副本110": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "水屬性"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "next": [
+            "summon新建节点23_副本111"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 9477,
+                "y": 1734
+            }
+        }
+    },
+    "summon新建节点4_副本1_副本85_副本89_副本90_副本91_副本92_副本108_副本110_副本112": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "闇屬性"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "next": [
+            "summon新建节点26"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 9478,
+                "y": 1900
+            }
+        }
+    },
+    "summon新建节点4_副本1_副本85_副本89_副本90_副本91_副本92_副本108_副本110_副本112_副本113": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "削弱"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "next": [
+            "summon新建节点28"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 9485,
+                "y": 2078
+            }
+        }
+    },
+    "summon新建节点4_副本1_副本85_副本89_副本90_副本91_副本92_副本108_副本110_副本112_副本113_副本114": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "削弱"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "next": [
+            "summon新建节点29"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 9488,
+                "y": 2248
+            }
+        }
+    },
+    "summon新建节点4_副本1_副本85_副本89_副本90_副本91_副本92_副本108_副本110_副本112_副本113_副本114_副本4": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "爆發力"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "next": [
+            "summon新建节点29_副本3"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 9483,
+                "y": 2413
+            }
+        }
+    },
+    "summon新建节点4_副本3": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "群體攻擊"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "summon新建节点41"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 9759,
+                "y": 1231
+            }
+        }
+    },
+    "summon新建节点4_副本88": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "防禦"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "summon新建节点41"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 9758,
+                "y": 720
+            }
+        }
+    },
+    "summon新建节点6": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "輔助者"
+                ]
+            }
+        },
+        "next": [
+            "summon新建节点6_副本81"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 8914,
+                "y": 42
+            }
+        }
+    },
+    "summon新建节点6_副本81": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "輔助者"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "summon新建节点41"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 9196,
+                "y": 51
+            }
+        }
+    },
+    "summon新建节点7": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "菁英"
+                ]
+            }
+        },
+        "next": [
+            "summon新建节点7_副本80"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 8917,
+                "y": -124
+            }
+        }
+    },
+    "summon新建节点7_副本80": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "菁英"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "summon新建节点41"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 9191,
+                "y": -127
+            }
+        }
+    },
+    "summon新建节点9": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "領袖"
+                ]
+            }
+        },
+        "next": [
+            "summon_select"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 8918,
+                "y": -280
+            }
+        }
+    },
+    "summon水屬性": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "水屬性"
+                ]
+            }
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 9172,
+                "y": 885
+            }
+        }
+    },
+    "summon爆發力": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "爆發力"
+                ]
+            }
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 9173,
+                "y": 1071
+            }
+        }
+    },
+    "summon生存力": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "生存力"
+                ]
+            }
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 9172,
+                "y": 945
+            }
+        }
+    },
+    "summon群體攻擊": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "群體攻擊"
+                ]
+            }
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 9173,
+                "y": 848
+            }
+        }
+    },
+    "summon輸出": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "輸出"
+                ]
+            }
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 9172,
+                "y": 639
+            }
+        }
+    },
+    "summon闇屬性": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "闇屬性"
+                ]
+            }
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 9171,
+                "y": 786
+            }
+        }
+    },
+    "summon防禦": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "防禦"
+                ]
+            }
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 9169,
+                "y": 564
+            }
+        }
+    },
+    "summon風屬性": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "風屬性"
+                ]
+            }
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 9172,
+                "y": 818
+            }
+        }
+    },
+    "summon貧乳": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "貧乳"
+                ]
+            }
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 9174,
+                "y": 1126
+            }
+        }
+    },
+    "summon新建节点27_副本115_副本2_副本6": {
+        "recognition": {
+            "type": "And",
+            "param": {
+                "all_of": [
+                    "summon水屬性",
+                    "summon回復",
+                    "summon貧乳"
+                ]
+            }
+        },
+        "next": [
+            "summon新建节点4_副本1_副本85_副本89_副本90_副本91_副本92_副本108_副本110_副本7"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 8895,
+                "y": 2703
+            }
+        }
+    },
+    "summon新建节点4_副本1_副本85_副本89_副本90_副本91_副本92_副本108_副本110_副本7": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "水屬性"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "next": [
+            "summon新建节点4_副本1_副本85_副本8"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 9479,
+                "y": 2652
+            }
+        }
+    },
+    "summon新建节点4_副本1_副本85_副本8": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "回復"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "next": [
+            "summon新建节点29_副本3_副本9"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 9784,
+                "y": 2713
+            }
+        }
+    },
+    "summon新建节点29_副本3_副本9": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "貧乳"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "summon新建节点41"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 10063,
+                "y": 2723
+            }
+        }
+    },
+    "summon火屬性": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "火屬性"
+                ]
+            }
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 9174,
+                "y": 1170
+            }
+        }
+    },
+    "summon新建节点27_副本115_副本2_副本6_副本12": {
+        "recognition": {
+            "type": "And",
+            "param": {
+                "all_of": [
+                    "summon火屬性",
+                    "summon亞人",
+                    "summon削弱"
+                ]
+            }
+        },
+        "next": [
+            "summon新建节点4_副本1_副本85_副本89_副本90_副本91_副本92_副本108_副本110_副本7_副本13"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 8893,
+                "y": 2869
+            }
+        }
+    },
+    "summon新建节点4_副本1_副本85_副本89_副本90_副本91_副本92_副本108_副本110_副本7_副本13": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "火屬性"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "next": [
+            "summon新建节点4_副本1_副本85_副本8_副本14"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 9476,
+                "y": 2820
+            }
+        }
+    },
+    "summon新建节点4_副本1_副本85_副本8_副本14": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "亞人"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "next": [
+            "summon新建节点29_副本3_副本9_副本15"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 9784,
+                "y": 2859
+            }
+        }
+    },
+    "summon新建节点29_副本3_副本9_副本15": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "削弱"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "summon新建节点41"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 10064,
+                "y": 2926
+            }
+        }
+    },
+    "summon新建节点27_副本115_副本2_副本6_副本12_副本16": {
+        "recognition": {
+            "type": "And",
+            "param": {
+                "all_of": [
+                    "summon越戰越強",
+                    "summon削弱"
+                ]
+            }
+        },
+        "next": [
+            "summon新建节点4_副本1_副本85_副本89_副本90_副本91_副本92_副本108_副本110_副本7_副本13_副本18"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 8890,
+                "y": 3064
+            }
+        }
+    },
+    "summon越戰越強": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "越戰越強"
+                ]
+            }
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 9175,
+                "y": 1213
+            }
+        }
+    },
+    "summon新建节点4_副本1_副本85_副本89_副本90_副本91_副本92_副本108_副本110_副本7_副本13_副本18": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "越戰越強"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 500,
+        "next": [
+            "summon新建节点29_副本3_副本9_副本15_副本19"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 9476,
+                "y": 3002
+            }
+        }
+    },
+    "summon新建节点29_副本3_副本9_副本15_副本19": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "削弱"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "summon新建节点41"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 9782,
+                "y": 3078
+            }
+        }
+    },
+    "back_01": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    14,
+                    40,
+                    80,
+                    89
+                ],
+                "expected": [
+                    "<"
+                ],
+                "threshold": 0.2
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "start_summon"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5717,
+                "y": 1983
+            }
+        }
+    }
+}

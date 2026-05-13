@@ -1,24 +1,22 @@
 {
     "$__mpe_config_guild_mail": {
         "$__mpe_code": {
-            "filename": "guild_mail",
             "prefix": "",
+            "lastSyncTime": 1778654724254,
+            "isModifiedExternally": false,
+            "filePath": "D:\\MAATKFM\\resource\\base\\pipeline\\guild_mail.json",
             "savedViewport": {
-                "x": -983,
-                "y": 339,
-                "zoom": 0.75
+                "x": -617,
+                "y": 279,
+                "zoom": 0.8
             },
+            "filename": "guild_mail",
             "version": "v1.5.0"
         }
     },
     "guild新建节点10": {
-        "$__mpe_code": {
-            "position": {
-                "x": 1947,
-                "y": 82
-            }
-        },
         "action": {
+            "type": "Click",
             "param": {
                 "target": [
                     346,
@@ -26,22 +24,22 @@
                     39,
                     23
                 ]
-            },
-            "type": "Click"
+            }
         },
+        "post_delay": 1000,
         "next": [
             "guild新建节点10_副本3"
         ],
-        "post_delay": 1000
-    },
-    "guild新建节点10_副本3": {
         "$__mpe_code": {
             "position": {
-                "x": 2209,
-                "y": 59
+                "x": 1947,
+                "y": 82
             }
-        },
+        }
+    },
+    "guild新建节点10_副本3": {
         "action": {
+            "type": "Click",
             "param": {
                 "target": [
                     583,
@@ -49,24 +47,24 @@
                     25,
                     23
                 ]
-            },
-            "type": "Click"
+            }
         },
+        "repeat": 3,
+        "repeat_delay": 500,
+        "post_delay": 1000,
         "next": [
             "guild新建节点10_副本4"
         ],
-        "post_delay": 1000,
-        "repeat": 3,
-        "repeat_delay": 500
-    },
-    "guild新建节点10_副本3_副本6": {
         "$__mpe_code": {
             "position": {
-                "x": 2986,
-                "y": 47
+                "x": 2209,
+                "y": 59
             }
-        },
+        }
+    },
+    "guild新建节点10_副本3_副本6": {
         "action": {
+            "type": "Click",
             "param": {
                 "target": [
                     346,
@@ -74,24 +72,24 @@
                     34,
                     6
                 ]
-            },
-            "type": "Click"
+            }
         },
+        "repeat": 2,
+        "repeat_delay": 500,
+        "post_delay": 1000,
         "next": [
             "guild新建节点10_副本4_副本5_副本7"
         ],
-        "post_delay": 1000,
-        "repeat": 5,
-        "repeat_delay": 500
-    },
-    "guild新建节点10_副本4": {
         "$__mpe_code": {
             "position": {
-                "x": 2466,
-                "y": 80
+                "x": 2986,
+                "y": 47
             }
-        },
+        }
+    },
+    "guild新建节点10_副本4": {
         "action": {
+            "type": "Click",
             "param": {
                 "target": [
                     115,
@@ -99,22 +97,22 @@
                     37,
                     20
                 ]
-            },
-            "type": "Click"
+            }
         },
+        "post_delay": 1000,
         "next": [
             "guild新建节点10_副本4_副本5"
         ],
-        "post_delay": 1000
-    },
-    "guild新建节点10_副本4_副本5": {
         "$__mpe_code": {
             "position": {
-                "x": 2725,
-                "y": 72
+                "x": 2466,
+                "y": 80
             }
-        },
+        }
+    },
+    "guild新建节点10_副本4_副本5": {
         "action": {
+            "type": "Click",
             "param": {
                 "target": [
                     555,
@@ -122,22 +120,22 @@
                     17,
                     23
                 ]
-            },
-            "type": "Click"
+            }
         },
+        "post_delay": 1000,
         "next": [
             "guild新建节点10_副本3_副本6"
         ],
-        "post_delay": 1000
-    },
-    "guild新建节点10_副本4_副本5_副本7": {
         "$__mpe_code": {
             "position": {
-                "x": 3246,
-                "y": 68
+                "x": 2725,
+                "y": 72
             }
-        },
+        }
+    },
+    "guild新建节点10_副本4_副本5_副本7": {
         "action": {
+            "type": "Click",
             "param": {
                 "target": [
                     354,
@@ -145,20 +143,84 @@
                     17,
                     11
                 ]
-            },
-            "type": "Click"
-        },
-        "post_delay": 1000
-    },
-    "start_guild_mail": {
-        "$__mpe_code": {
-            "position": {
-                "x": 1622,
-                "y": 105
             }
         },
+        "post_delay": 1000,
+        "$__mpe_code": {
+            "position": {
+                "x": 3246,
+                "y": 68
+            }
+        }
+    },
+    "start_guild_mail": {
+        "next": [
+            "Test_O1_副本21_副本23_副本37",
+            "start新建节点4_副本22_副本24_副本38"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1215,
+                "y": 100
+            }
+        }
+    },
+    "Test_O1_副本21_副本23_副本37": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    14,
+                    40,
+                    80,
+                    89
+                ],
+                "expected": [
+                    "<"
+                ],
+                "threshold": 0.2
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "start_guild_mail"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1560,
+                "y": 309
+            }
+        }
+    },
+    "start新建节点4_副本22_副本24_副本38": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    75,
+                    1175,
+                    109,
+                    63
+                ],
+                "expected": [
+                    "城堡"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 1000,
         "next": [
             "guild新建节点10"
-        ]
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 1560,
+                "y": 45
+            }
+        }
     }
 }

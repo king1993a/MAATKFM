@@ -2,13 +2,13 @@
     "$__mpe_config_get_energy": {
         "$__mpe_code": {
             "prefix": "",
-            "lastSyncTime": 1778140540104,
+            "lastSyncTime": 1778654721082,
             "isModifiedExternally": false,
-            "filePath": "D:\\MAA_TKFM\\resource\\base\\pipeline\\get_energy.json",
+            "filePath": "D:\\MAATKFM\\resource\\base\\pipeline\\get_energy.json",
             "savedViewport": {
-                "x": 1030,
-                "y": 390,
-                "zoom": 0.92
+                "x": 1276,
+                "y": 299,
+                "zoom": 0.7
             },
             "filename": "get_energy",
             "version": "v1.5.0"
@@ -106,12 +106,71 @@
     },
     "start_get_energy": {
         "next": [
+            "Test_O1_副本21_副本23_副本35",
+            "start新建节点4_副本22_副本24_副本36"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -948,
+                "y": 93
+            }
+        }
+    },
+    "Test_O1_副本21_副本23_副本35": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    14,
+                    40,
+                    80,
+                    89
+                ],
+                "expected": [
+                    "<"
+                ],
+                "threshold": 0.2
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "start_get_energy"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -568,
+                "y": 327
+            }
+        }
+    },
+    "start新建节点4_副本22_副本24_副本36": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "roi": [
+                    75,
+                    1175,
+                    109,
+                    63
+                ],
+                "expected": [
+                    "城堡"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 1000,
+        "next": [
             "get_ergy"
         ],
         "$__mpe_code": {
             "position": {
-                "x": -528,
-                "y": 89
+                "x": -567,
+                "y": 43
             }
         }
     }
