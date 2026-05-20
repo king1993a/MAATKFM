@@ -1,0 +1,39 @@
+{
+    "$__mpe_config_endgame": {
+        "$__mpe_code": {
+            "filename": "endgame",
+            "prefix": "",
+            "savedViewport": {
+                "x": -12603,
+                "y": -2012,
+                "zoom": 1.5
+            },
+            "version": "v1.5.0"
+        }
+    },
+    "endgame_tkfm": {
+        "$__mpe_code": {
+            "position": {
+                "x": 9002,
+                "y": 1659
+            }
+        },
+        "action": {
+            "param": {
+                "package": "com.pinkcore.tkfm"
+            },
+            "type": "StopApp"
+        }
+    },
+    "start_endgame": {
+        "$__mpe_code": {
+            "position": {
+                "x": 8723,
+                "y": 1668
+            }
+        },
+        "next": [
+            "endgame_tkfm"
+        ]
+    }
+}

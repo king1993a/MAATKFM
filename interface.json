@@ -85,6 +85,12 @@
             "結束後返回主畫面"
             ],
             "description": "自動招募直到直到沒有可招募格子(最大4次)領袖不自動招募。"
+    },
+    {
+      "name": "[全局] 結束遊戲",
+      "entry": "start_endgame",
+      "default_check": false,
+      "description": "透過ADB強制關閉遊戲App。"
     }
   ],
   "option":{

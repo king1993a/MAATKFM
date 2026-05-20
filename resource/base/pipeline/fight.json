@@ -2,16 +2,56 @@
     "$__mpe_config_fight": {
         "$__mpe_code": {
             "prefix": "",
-            "lastSyncTime": 1778695784904,
+            "lastSyncTime": 1779262103366,
             "isModifiedExternally": false,
             "filePath": "D:\\MAATKFM\\resource\\base\\pipeline\\fight.json",
             "savedViewport": {
-                "x": -2760,
-                "y": -323,
-                "zoom": 0.99
+                "x": -411,
+                "y": 132,
+                "zoom": 0.2
             },
             "filename": "fight",
             "version": "v1.5.0"
+        }
+    },
+    "Test_O1_副本1_副本11_副本17": {
+        "recognition": {
+            "type": "ColorMatch",
+            "param": {
+                "roi": [
+                    4,
+                    53,
+                    115,
+                    42
+                ],
+                "lower": [
+                    [
+                        200,
+                        200,
+                        200
+                    ]
+                ],
+                "upper": [
+                    [
+                        255,
+                        255,
+                        255
+                    ]
+                ],
+                "count": 3000
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "start_fight"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 3743,
+                "y": 1002
+            }
         }
     },
     "chckteam": {
@@ -131,8 +171,8 @@
         ],
         "$__mpe_code": {
             "position": {
-                "x": 6210,
-                "y": 1597
+                "x": 6161,
+                "y": 1751
             }
         }
     },
@@ -154,8 +194,8 @@
         ],
         "$__mpe_code": {
             "position": {
-                "x": 6154,
-                "y": 2064
+                "x": 6131,
+                "y": 2366
             }
         }
     },
@@ -372,8 +412,8 @@
         ],
         "$__mpe_code": {
             "position": {
-                "x": 6182,
-                "y": 1267
+                "x": 6174,
+                "y": 1415
             }
         }
     },
@@ -395,8 +435,8 @@
         ],
         "$__mpe_code": {
             "position": {
-                "x": 6443,
-                "y": 1288
+                "x": 6479,
+                "y": 1529
             }
         }
     },
@@ -557,9 +597,11 @@
     "find_new": {
         "next": [
             "新建节点19",
+            "fight_no3star",
             "scolldown",
             "fight新建节点42",
             "fight新建节点2",
+            "fight_1新建节点3",
             "fight新建节点22"
         ],
         "$__mpe_code": {
@@ -599,17 +641,17 @@
             "type": "Swipe",
             "param": {
                 "begin": [
-                    521,
-                    856,
-                    1,
-                    1
+                    512,
+                    859,
+                    11,
+                    28
                 ],
                 "end": [
                     [
-                        577,
-                        458,
-                        1,
-                        1
+                        143,
+                        447,
+                        17,
+                        23
                     ]
                 ],
                 "duration": [
@@ -623,8 +665,8 @@
         ],
         "$__mpe_code": {
             "position": {
-                "x": 6177,
-                "y": 950
+                "x": 6260,
+                "y": 1116
             }
         }
     },
@@ -848,15 +890,10 @@
         "recognition": {
             "type": "OCR",
             "param": {
-                "roi": [
-                    160,
-                    227,
-                    65,
-                    818
-                ],
                 "expected": [
                     "NEW"
-                ]
+                ],
+                "threshold": 0.2
             }
         },
         "action": {
@@ -876,8 +913,8 @@
         ],
         "$__mpe_code": {
             "position": {
-                "x": 6177,
-                "y": 665
+                "x": 6253,
+                "y": 653
             }
         }
     },
@@ -1248,43 +1285,82 @@
             }
         }
     },
-    "Test_O1_副本1_副本11_副本17": {
+    "fight_no3star": {
         "recognition": {
             "type": "ColorMatch",
             "param": {
                 "roi": [
-                    4,
-                    53,
-                    115,
-                    42
+                    0,
+                    0,
+                    0,
+                    0
                 ],
                 "lower": [
                     [
-                        200,
-                        200,
-                        200
+                        35,
+                        126,
+                        94
                     ]
                 ],
                 "upper": [
                     [
-                        255,
-                        255,
-                        255
+                        100,
+                        200,
+                        200
                     ]
                 ],
-                "count": 3000
+                "connected": true,
+                "count": 1500
             }
         },
         "action": {
-            "type": "Click"
+            "type": "Click",
+            "param": {
+                "target_offset": [
+                    19,
+                    56,
+                    -61,
+                    -10
+                ]
+            }
         },
         "next": [
-            "start_fight"
+            "fight_new"
         ],
         "$__mpe_code": {
             "position": {
-                "x": 3743,
-                "y": 1002
+                "x": 6269,
+                "y": 920
+            }
+        }
+    },
+    "fight_1新建节点3": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "Free Quest"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target_offset": [
+                    148,
+                    53,
+                    -80,
+                    -18
+                ]
+            }
+        },
+        "next": [
+            "fight新建节点45"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 6146,
+                "y": 2070
             }
         }
     }

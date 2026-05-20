@@ -2,44 +2,38 @@
     "$__mpe_config_summon": {
         "$__mpe_code": {
             "prefix": "",
-            "lastSyncTime": 1778693340672,
+            "lastSyncTime": 1778694669114,
             "isModifiedExternally": false,
             "filePath": "D:\\MAATKFM\\resource\\base\\pipeline\\summon.json",
             "savedViewport": {
-                "x": -3527,
-                "y": -850,
-                "zoom": 0.75
+                "x": -4327,
+                "y": 322,
+                "zoom": 0.61
             },
             "filename": "summon",
             "version": "v1.5.0"
         }
     },
-    "back_01": {
-        "recognition": {
-            "type": "OCR",
+    "summon1新建节点1": {
+        "action": {
+            "type": "Click",
             "param": {
-                "roi": [
-                    14,
-                    40,
-                    80,
-                    89
-                ],
-                "expected": [
-                    "<"
-                ],
-                "threshold": 0.1
+                "target": [
+                    31,
+                    69,
+                    8,
+                    5
+                ]
             }
         },
-        "action": {
-            "type": "Click"
-        },
+        "post_delay": 1000,
         "next": [
-            "start_summon"
+            "summon_select"
         ],
         "$__mpe_code": {
             "position": {
-                "x": 5717,
-                "y": 1983
+                "x": 9190,
+                "y": -345
             }
         }
     },
@@ -49,7 +43,7 @@
             "summon新建节点2",
             "summon新建节点2_副本1",
             "summon1新建节点4",
-            "back_01"
+            "Test_O1_副本1_副本11"
         ],
         "$__mpe_code": {
             "position": {
@@ -2111,7 +2105,7 @@
             }
         },
         "next": [
-            "summon_select"
+            "summon1新建节点1"
         ],
         "$__mpe_code": {
             "position": {
@@ -2293,6 +2287,46 @@
             "position": {
                 "x": 9172,
                 "y": 818
+            }
+        }
+    },
+    "Test_O1_副本1_副本11": {
+        "recognition": {
+            "type": "ColorMatch",
+            "param": {
+                "roi": [
+                    4,
+                    53,
+                    115,
+                    42
+                ],
+                "lower": [
+                    [
+                        200,
+                        200,
+                        200
+                    ]
+                ],
+                "upper": [
+                    [
+                        255,
+                        255,
+                        255
+                    ]
+                ],
+                "count": 3000
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "next": [
+            "start_summon"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5711,
+                "y": 1986
             }
         }
     }
