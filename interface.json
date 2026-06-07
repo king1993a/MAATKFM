@@ -43,6 +43,12 @@
       "description": "執行活動關卡自動戰鬥 支援自動推關卡 推關卡時會使用時限<5天的體力水 掃蕩使用時限<3天的體力水。"
     },
     {
+      "name": "[執行] 自動活動戰鬥_20260605",
+      "entry": "start_fight_260605",
+      "default_check": true,
+      "description": "針對夏活執行活動關卡自動戰鬥，掃蕩使用時限<3天的體力水。"
+    },
+    {
       "name": "[執行] 角色強化",
       "entry": "start_daily_lvup",
       "default_check": true,

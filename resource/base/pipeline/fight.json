@@ -2,13 +2,13 @@
     "$__mpe_config_fight": {
         "$__mpe_code": {
             "prefix": "",
-            "lastSyncTime": 1779262103366,
+            "lastSyncTime": 1779392981106,
             "isModifiedExternally": false,
             "filePath": "D:\\MAATKFM\\resource\\base\\pipeline\\fight.json",
             "savedViewport": {
-                "x": -411,
-                "y": 132,
-                "zoom": 0.2
+                "x": -5079,
+                "y": -1383,
+                "zoom": 0.86
             },
             "filename": "fight",
             "version": "v1.5.0"
@@ -539,8 +539,8 @@
         ],
         "$__mpe_code": {
             "position": {
-                "x": 5261,
-                "y": 1207
+                "x": 5254,
+                "y": 1214
             }
         }
     },
@@ -1097,7 +1097,7 @@
                     27
                 ],
                 "expected": [
-                    "[0-2]"
+                    "(?<!\\d)[0-2]\\s*日"
                 ]
             }
         },
@@ -1229,7 +1229,7 @@
                 ]
             }
         },
-        "post_delay": 5000,
+        "post_delay": 7000,
         "next": [
             "新建节点48"
         ],
