@@ -2,41 +2,87 @@
     "$__mpe_config_start_game": {
         "$__mpe_code": {
             "prefix": "",
-            "lastSyncTime": 1778696132239,
+            "lastSyncTime": 1790036839794,
             "isModifiedExternally": false,
             "filePath": "D:\\MAATKFM\\resource\\base\\pipeline\\start_game.json",
             "savedViewport": {
-                "x": 1938,
-                "y": 174,
+                "x": 3329,
+                "y": 96,
                 "zoom": 1.5
             },
             "filename": "start_game",
             "version": "v1.5.0"
         }
     },
-    "Test_Open_App": {
+    "Test_O1_副本1_副本11_副本21": {
         "recognition": {
-            "type": "TemplateMatch",
+            "type": "ColorMatch",
             "param": {
-                "template": [
-                    "pre_game.png"
+                "roi": [
+                    4,
+                    53,
+                    115,
+                    42
                 ],
-                "threshold": [
-                    0.7
-                ]
+                "lower": [
+                    [
+                        200,
+                        200,
+                        200
+                    ]
+                ],
+                "upper": [
+                    [
+                        255,
+                        255,
+                        255
+                    ]
+                ],
+                "count": 3000
             }
         },
         "action": {
             "type": "Click"
         },
-        "post_delay": 25000,
         "next": [
             "start新建节点3"
         ],
         "$__mpe_code": {
             "position": {
-                "x": -687,
-                "y": 20
+                "x": -684,
+                "y": -469
+            }
+        }
+    },
+    "Test_Open_App": {
+        "recognition": {
+            "type": "OCR",
+            "param": {
+                "expected": [
+                    "天下布魔"
+                ],
+                "threshold": 0.7
+            }
+        },
+        "action": {
+            "type": "Click",
+            "param": {
+                "target_offset": [
+                    32,
+                    -48,
+                    -57,
+                    -3
+                ]
+            }
+        },
+        "post_delay": 40000,
+        "next": [
+            "start新建节点3"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -647,
+                "y": 30
             }
         }
     },
@@ -56,8 +102,22 @@
         ],
         "$__mpe_code": {
             "position": {
-                "x": -680,
-                "y": 345
+                "x": -698,
+                "y": 341
+            }
+        }
+    },
+    "endgame_tkfm_副本1": {
+        "action": {
+            "type": "StopApp",
+            "param": {
+                "package": "com.pinkcore.tkfm"
+            }
+        },
+        "$__mpe_code": {
+            "position": {
+                "x": 1824,
+                "y": 484
             }
         }
     },
@@ -161,26 +221,50 @@
     },
     "start_start_game": {
         "next": [
+            "start_start_game_副本2",
             "start新建节点3"
         ],
         "$__mpe_code": {
             "position": {
-                "x": -1432,
-                "y": 145
+                "x": -1689,
+                "y": 184
+            }
+        }
+    },
+    "start_start_game_副本2": {
+        "recognition": {
+            "type": "TemplateMatch",
+            "param": {
+                "template": [
+                    "mumu_ad_close.png"
+                ]
+            }
+        },
+        "action": {
+            "type": "Click"
+        },
+        "post_delay": 2000,
+        "next": [
+            "start新建节点3"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": -1360,
+                "y": 251
             }
         }
     },
     "start新建节点3": {
         "next": [
-            "Test_Open_App",
             "Test_Open_App_副本1",
             "Test_O1_副本1_副本11_副本21",
-            "start新建节点4"
+            "start新建节点4",
+            "Test_Open_App"
         ],
         "$__mpe_code": {
             "position": {
-                "x": -1045,
-                "y": 141
+                "x": -1025,
+                "y": 163
             }
         }
     },
@@ -214,46 +298,6 @@
             "position": {
                 "x": 233,
                 "y": 687
-            }
-        }
-    },
-    "Test_O1_副本1_副本11_副本21": {
-        "recognition": {
-            "type": "ColorMatch",
-            "param": {
-                "roi": [
-                    4,
-                    53,
-                    115,
-                    42
-                ],
-                "lower": [
-                    [
-                        200,
-                        200,
-                        200
-                    ]
-                ],
-                "upper": [
-                    [
-                        255,
-                        255,
-                        255
-                    ]
-                ],
-                "count": 3000
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "next": [
-            "start新建节点3"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": -690,
-                "y": -455
             }
         }
     }

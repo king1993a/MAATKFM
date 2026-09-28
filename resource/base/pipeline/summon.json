@@ -2,38 +2,55 @@
     "$__mpe_config_summon": {
         "$__mpe_code": {
             "prefix": "",
-            "lastSyncTime": 1778694669114,
+            "lastSyncTime": 1785932284923,
             "isModifiedExternally": false,
             "filePath": "D:\\MAATKFM\\resource\\base\\pipeline\\summon.json",
             "savedViewport": {
-                "x": -4327,
-                "y": 322,
-                "zoom": 0.61
+                "x": -13787,
+                "y": 693,
+                "zoom": 1.6
             },
             "filename": "summon",
             "version": "v1.5.0"
         }
     },
-    "summon1新建节点1": {
-        "action": {
-            "type": "Click",
+    "Test_O1_副本1_副本11": {
+        "recognition": {
+            "type": "ColorMatch",
             "param": {
-                "target": [
-                    31,
-                    69,
-                    8,
-                    5
-                ]
+                "roi": [
+                    4,
+                    53,
+                    115,
+                    42
+                ],
+                "lower": [
+                    [
+                        200,
+                        200,
+                        200
+                    ]
+                ],
+                "upper": [
+                    [
+                        255,
+                        255,
+                        255
+                    ]
+                ],
+                "count": 3000
             }
         },
-        "post_delay": 1000,
+        "action": {
+            "type": "Click"
+        },
         "next": [
-            "summon_select"
+            "start_summon"
         ],
         "$__mpe_code": {
             "position": {
-                "x": 9190,
-                "y": -345
+                "x": 5711,
+                "y": 1986
             }
         }
     },
@@ -49,6 +66,29 @@
             "position": {
                 "x": 5419,
                 "y": 1111
+            }
+        }
+    },
+    "summon1新建节点1": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    212,
+                    1037,
+                    37,
+                    16
+                ]
+            }
+        },
+        "post_delay": 1000,
+        "next": [
+            "summon_select"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 9190,
+                "y": -345
             }
         }
     },
@@ -2287,46 +2327,6 @@
             "position": {
                 "x": 9172,
                 "y": 818
-            }
-        }
-    },
-    "Test_O1_副本1_副本11": {
-        "recognition": {
-            "type": "ColorMatch",
-            "param": {
-                "roi": [
-                    4,
-                    53,
-                    115,
-                    42
-                ],
-                "lower": [
-                    [
-                        200,
-                        200,
-                        200
-                    ]
-                ],
-                "upper": [
-                    [
-                        255,
-                        255,
-                        255
-                    ]
-                ],
-                "count": 3000
-            }
-        },
-        "action": {
-            "type": "Click"
-        },
-        "next": [
-            "start_summon"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 5711,
-                "y": 1986
             }
         }
     }

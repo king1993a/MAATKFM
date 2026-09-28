@@ -1,20 +1,20 @@
 {
-    "$__mpe_config_fight_260605": {
+    "$__mpe_config_fight_20260805": {
         "$__mpe_code": {
             "prefix": "",
-            "lastSyncTime": 1782303739318,
+            "lastSyncTime": 1786012887695,
             "isModifiedExternally": false,
-            "filePath": "D:\\MAATKFM\\resource\\base\\pipeline\\fight_260605.json",
+            "filePath": "D:\\MAATKFM\\resource\\base\\pipeline\\fight_20260805.json",
             "savedViewport": {
-                "x": -2207,
-                "y": -429,
-                "zoom": 0.57
+                "x": -2114,
+                "y": -105,
+                "zoom": 0.65
             },
-            "filename": "fight_260605",
+            "filename": "fight_20260805",
             "version": "v1.5.0"
         }
     },
-    "Test_O1_副本1_副本11_副本17_副本1": {
+    "Test_O1_副1121_副11211_副11217_副1121": {
         "recognition": {
             "type": "ColorMatch",
             "param": {
@@ -45,7 +45,7 @@
             "type": "Click"
         },
         "next": [
-            "start_fight_260605"
+            "start_fight_20260805"
         ],
         "$__mpe_code": {
             "position": {
@@ -54,7 +54,7 @@
             }
         }
     },
-    "chckteam_副本2": {
+    "chckteam_副1122": {
         "recognition": {
             "type": "OCR",
             "param": {
@@ -64,7 +64,7 @@
             }
         },
         "next": [
-            "新建节点40_副本59"
+            "新建节点40_副11259"
         ],
         "$__mpe_code": {
             "position": {
@@ -73,7 +73,7 @@
             }
         }
     },
-    "end_fight_副本16_副本4": {
+    "end_fight_副11216_副1124": {
         "action": {
             "type": "Click",
             "param": {
@@ -85,7 +85,7 @@
                 ]
             }
         },
-        "repeat": 4,
+        "repeat": 3,
         "repeat_delay": 1000,
         "post_delay": 3000,
         "$__mpe_code": {
@@ -95,7 +95,7 @@
             }
         }
     },
-    "end_fight_副本3": {
+    "end_fight_副1123": {
         "action": {
             "type": "Click",
             "param": {
@@ -117,7 +117,7 @@
             }
         }
     },
-    "fight_1新建节点3_副本5": {
+    "fight_1新建节点3_副1125": {
         "recognition": {
             "type": "OCR",
             "param": {
@@ -138,19 +138,19 @@
             }
         },
         "next": [
-            "fight新建节点45_副本26"
+            "fight新建节点45_副11226"
         ],
         "$__mpe_code": {
             "position": {
-                "x": 6256,
-                "y": 2140
+                "x": 6246,
+                "y": 2120
             }
         }
     },
-    "fight_end_副本6": {
+    "fight_end_副1126": {
         "next": [
-            "fight新建节点32_副本19",
-            "fight新建节点33_副本20"
+            "fight新建节点32_副11219",
+            "fight新建节点33_副11220"
         ],
         "$__mpe_code": {
             "position": {
@@ -159,11 +159,11 @@
             }
         }
     },
-    "fight_new_副本7": {
+    "fight_new_副1127": {
         "next": [
-            "skip_plot_副本36",
-            "chckteam_副本2",
-            "新建节点25_副本47"
+            "skip_plot_副11236",
+            "chckteam_副1122",
+            "新建节点25_副11247"
         ],
         "$__mpe_code": {
             "position": {
@@ -172,7 +172,7 @@
             }
         }
     },
-    "fight_no3star_副本8": {
+    "fight_no3star_副1128": {
         "recognition": {
             "type": "ColorMatch",
             "param": {
@@ -212,18 +212,18 @@
             }
         },
         "next": [
-            "fight_new_副本7"
+            "fight_new_副1127"
         ],
         "$__mpe_code": {
             "position": {
-                "x": 6369,
-                "y": 970
+                "x": 6357,
+                "y": 995
             }
         }
     },
-    "fight新建节点1_副本9": {
+    "fight新建节点1_副1129": {
         "next": [
-            "新建节点34_副本50"
+            "新建节点34_副11250"
         ],
         "$__mpe_code": {
             "position": {
@@ -232,56 +232,30 @@
             }
         }
     },
-    "fight新建节点22_副本11": {
-        "pre_delay": 2000,
+    "fight新建节点22_副11211": {
         "action": {
             "type": "Click",
             "param": {
                 "target": [
-                    464,
-                    957,
-                    11,
-                    17
-                ]
-            }
-        },
-        "repeat": 2,
-        "repeat_delay": 1000,
-        "post_delay": 2000,
-        "next": [
-            "fight新建节点22_副本11_副本125"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 5904,
-                "y": 2411
-            }
-        }
-    },
-    "fight新建节点22_副本11_副本125": {
-        "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    306,
-                    712,
-                    17,
-                    8
+                    298,
+                    963,
+                    85,
+                    39
                 ]
             }
         },
         "post_delay": 2000,
         "next": [
-            "fight新建节点45_副本26"
+            "fight新建节点45_副11226"
         ],
         "$__mpe_code": {
             "position": {
-                "x": 6212,
-                "y": 2412
+                "x": 6231,
+                "y": 2416
             }
         }
     },
-    "fight新建节点27_副本12": {
+    "fight新建节点27_副11212": {
         "recognition": {
             "type": "OCR",
             "param": {
@@ -296,7 +270,7 @@
         "repeat": 3,
         "post_delay": 2000,
         "next": [
-            "fight新建节点30_副本17"
+            "fight新建节点30_副11217"
         ],
         "$__mpe_code": {
             "position": {
@@ -305,7 +279,7 @@
             }
         }
     },
-    "fight新建节点27_副本1_副本13": {
+    "fight新建节点27_副1121_副11213": {
         "recognition": {
             "type": "OCR",
             "param": {
@@ -320,7 +294,7 @@
         "repeat": 3,
         "post_delay": 2000,
         "next": [
-            "fight新建节点30_副本3_副本18"
+            "fight新建节点30_副1123_副11218"
         ],
         "$__mpe_code": {
             "position": {
@@ -329,10 +303,10 @@
             }
         }
     },
-    "fight新建节点28_副本14": {
+    "fight新建节点28_副11214": {
         "next": [
-            "fight新建节点27_副本12",
-            "fight新建节点44_副本24"
+            "fight新建节点27_副11212",
+            "fight新建节点44_副11224"
         ],
         "$__mpe_code": {
             "position": {
@@ -341,10 +315,10 @@
             }
         }
     },
-    "fight新建节点28_副本2_副本15": {
+    "fight新建节点28_副1122_副11215": {
         "next": [
-            "fight新建节点27_副本1_副本13",
-            "fight新建节点44_副本4_副本25"
+            "fight新建节点27_副1121_副11213",
+            "fight新建节点44_副1124_副11225"
         ],
         "$__mpe_code": {
             "position": {
@@ -353,7 +327,7 @@
             }
         }
     },
-    "fight新建节点2_副本10": {
+    "fight新建节点2_副11210": {
         "recognition": {
             "type": "TemplateMatch",
             "param": {
@@ -367,7 +341,7 @@
         },
         "post_delay": 500,
         "next": [
-            "find_new_副本32"
+            "find_new_副11232"
         ],
         "$__mpe_code": {
             "position": {
@@ -376,7 +350,7 @@
             }
         }
     },
-    "fight新建节点30_副本17": {
+    "fight新建节点30_副11217": {
         "action": {
             "type": "Click",
             "param": {
@@ -390,7 +364,7 @@
         },
         "post_delay": 3000,
         "next": [
-            "fight_end_副本6"
+            "fight_end_副1126"
         ],
         "$__mpe_code": {
             "position": {
@@ -399,7 +373,7 @@
             }
         }
     },
-    "fight新建节点30_副本3_副本18": {
+    "fight新建节点30_副1123_副11218": {
         "action": {
             "type": "Click",
             "param": {
@@ -413,7 +387,7 @@
         },
         "post_delay": 3000,
         "next": [
-            "fight新建节点1_副本9"
+            "fight新建节点1_副1129"
         ],
         "$__mpe_code": {
             "position": {
@@ -422,7 +396,7 @@
             }
         }
     },
-    "fight新建节点32_副本19": {
+    "fight新建节点32_副11219": {
         "recognition": {
             "type": "OCR",
             "param": {
@@ -438,7 +412,7 @@
         "repeat": 2,
         "post_delay": 3000,
         "next": [
-            "fight新建节点28_副本2_副本15"
+            "fight新建节点28_副1122_副11215"
         ],
         "$__mpe_code": {
             "position": {
@@ -447,9 +421,9 @@
             }
         }
     },
-    "fight新建节点33_副本20": {
+    "fight新建节点33_副11220": {
         "next": [
-            "fight_end_副本6"
+            "fight_end_副1126"
         ],
         "$__mpe_code": {
             "position": {
@@ -458,7 +432,7 @@
             }
         }
     },
-    "fight新建节点3_副本16": {
+    "fight新建节点3_副11216": {
         "recognition": {
             "type": "OCR",
             "param": {
@@ -474,16 +448,16 @@
             }
         },
         "next": [
-            "find_new_副本32"
+            "find_new_副11232"
         ],
         "$__mpe_code": {
             "position": {
-                "x": 5349,
-                "y": 800
+                "x": 5387,
+                "y": 742
             }
         }
     },
-    "fight新建节点42_副本22": {
+    "fight新建节点42_副11222": {
         "recognition": {
             "type": "TemplateMatch",
             "param": {
@@ -500,7 +474,7 @@
         },
         "post_delay": 2000,
         "next": [
-            "fight新建节点43_副本23"
+            "fight新建节点43_副11223"
         ],
         "$__mpe_code": {
             "position": {
@@ -509,7 +483,7 @@
             }
         }
     },
-    "fight新建节点43_副本23": {
+    "fight新建节点43_副11223": {
         "action": {
             "type": "Click",
             "param": {
@@ -523,7 +497,7 @@
         },
         "post_delay": 1000,
         "next": [
-            "find_new_副本32"
+            "find_new_副11232"
         ],
         "$__mpe_code": {
             "position": {
@@ -532,9 +506,9 @@
             }
         }
     },
-    "fight新建节点44_副本24": {
+    "fight新建节点44_副11224": {
         "next": [
-            "fight_end_副本6"
+            "fight_end_副1126"
         ],
         "$__mpe_code": {
             "position": {
@@ -543,9 +517,9 @@
             }
         }
     },
-    "fight新建节点44_副本4_副本25": {
+    "fight新建节点44_副1124_副11225": {
         "next": [
-            "fight新建节点1_副本9"
+            "fight新建节点1_副1129"
         ],
         "$__mpe_code": {
             "position": {
@@ -554,7 +528,7 @@
             }
         }
     },
-    "fight新建节点45_副本26": {
+    "fight新建节点45_副11226": {
         "action": {
             "type": "Click",
             "param": {
@@ -568,18 +542,41 @@
         },
         "post_delay": 1000,
         "next": [
-            "handle_no_ergy_副本10_副本34"
+            "fight新建节点45_副11226_副11264"
         ],
         "$__mpe_code": {
             "position": {
-                "x": 6526,
-                "y": 2112
+                "x": 6501,
+                "y": 2209
             }
         }
     },
-    "fight新建节点49_副本27": {
+    "fight新建节点45_副11226_副11264": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    467,
+                    712,
+                    34,
+                    28
+                ]
+            }
+        },
+        "post_delay": 1000,
         "next": [
-            "fight新建节点45_副本26"
+            "handle_no_ergy_副11210_副11234"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 6529,
+                "y": 1935
+            }
+        }
+    },
+    "fight新建节点49_副11227": {
+        "next": [
+            "fight新建节点45_副11226"
         ],
         "$__mpe_code": {
             "position": {
@@ -588,20 +585,20 @@
             }
         }
     },
-    "fight新建节点4_副本21": {
+    "fight新建节点4_副11221": {
         "next": [
-            "fight新建节点3_副本16",
-            "fight新建节点5_副本28",
-            "fight新建节点5_副本3_副本29"
+            "fight新建节点3_副11216",
+            "fight新建节点5_副11228",
+            "fight新建节点5_副1123_副11229"
         ],
         "$__mpe_code": {
             "position": {
                 "x": 5086,
-                "y": 814
+                "y": 813
             }
         }
     },
-    "fight新建节点5_副本28": {
+    "fight新建节点5_副11228": {
         "max_hit": 1,
         "action": {
             "type": "Click",
@@ -616,40 +613,40 @@
         },
         "post_delay": 1000,
         "next": [
-            "fight新建节点6_副本30"
-        ],
-        "$__mpe_code": {
-            "position": {
-                "x": 5353,
-                "y": 984
-            }
-        }
-    },
-    "fight新建节点5_副本3_副本29": {
-        "max_hit": 1,
-        "action": {
-            "type": "Click",
-            "param": {
-                "target": [
-                    27,
-                    66,
-                    17,
-                    11
-                ]
-            }
-        },
-        "post_delay": 1000,
-        "next": [
-            "fight新建节点6_副本2_副本31"
+            "fight新建节点6_副11230"
         ],
         "$__mpe_code": {
             "position": {
                 "x": 5357,
-                "y": 1261
+                "y": 997
             }
         }
     },
-    "fight新建节点6_副本2_副本31": {
+    "fight新建节点5_副1123_副11229": {
+        "max_hit": 1,
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    27,
+                    66,
+                    17,
+                    11
+                ]
+            }
+        },
+        "post_delay": 1000,
+        "next": [
+            "fight新建节点6_副1122_副11231"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 5353,
+                "y": 1266
+            }
+        }
+    },
+    "fight新建节点6_副1122_副11231": {
         "action": {
             "type": "Click",
             "param": {
@@ -665,16 +662,16 @@
         "repeat_delay": 500,
         "post_delay": 2000,
         "next": [
-            "fight新建节点4_副本21"
+            "fight新建节点4_副11221"
         ],
         "$__mpe_code": {
             "position": {
-                "x": 5630,
-                "y": 1246
+                "x": 5617,
+                "y": 1269
             }
         }
     },
-    "fight新建节点6_副本30": {
+    "fight新建节点6_副11230": {
         "action": {
             "type": "Click",
             "param": {
@@ -690,24 +687,23 @@
         "repeat_delay": 500,
         "post_delay": 2000,
         "next": [
-            "fight新建节点4_副本21"
+            "fight新建节点4_副11221"
         ],
         "$__mpe_code": {
             "position": {
-                "x": 5623,
-                "y": 958
+                "x": 5635,
+                "y": 950
             }
         }
     },
-    "find_new_副本32": {
+    "find_new_副11232": {
         "next": [
-            "fight新建节点22_副本11",
-            "新建节点19_副本46",
-            "fight_no3star_副本8",
-            "scolldown_副本35",
-            "fight新建节点42_副本22",
-            "fight新建节点2_副本10",
-            "fight_1新建节点3_副本5"
+            "fight新建节点22_副11211",
+            "新建节点19_副11246",
+            "fight新建节点42_副11222",
+            "fight新建节点2_副11210",
+            "fight_1新建节点3_副1125",
+            "scolldown_副11235"
         ],
         "$__mpe_code": {
             "position": {
@@ -716,10 +712,10 @@
             }
         }
     },
-    "handle_no_ergy_副本10_副本34": {
+    "handle_no_ergy_副11210_副11234": {
         "next": [
-            "新建节点36_副本11_副本52",
-            "新建节点46_副本61"
+            "新建节点36_副11211_副11252",
+            "新建节点46_副11261"
         ],
         "$__mpe_code": {
             "position": {
@@ -728,10 +724,10 @@
             }
         }
     },
-    "handle_no_ergy_副本33": {
+    "handle_no_ergy_副11233": {
         "next": [
-            "新建节点36_副本51",
-            "fight新建节点28_副本14"
+            "新建节点36_副11251",
+            "fight新建节点28_副11214"
         ],
         "$__mpe_code": {
             "position": {
@@ -740,7 +736,7 @@
             }
         }
     },
-    "scolldown_副本35": {
+    "scolldown_副11235": {
         "max_hit": 2,
         "action": {
             "type": "Swipe",
@@ -766,16 +762,16 @@
         },
         "post_delay": 1000,
         "next": [
-            "find_new_副本32"
+            "find_new_副11232"
         ],
         "$__mpe_code": {
             "position": {
-                "x": 6360,
-                "y": 1166
+                "x": 5918,
+                "y": 1245
             }
         }
     },
-    "skip_plot_副本36": {
+    "skip_plot_副11236": {
         "recognition": {
             "type": "OCR",
             "param": {
@@ -791,7 +787,7 @@
             }
         },
         "next": [
-            "skip_plot新建节点2_副本37"
+            "skip_plot新建节点2_副11237"
         ],
         "$__mpe_code": {
             "position": {
@@ -800,7 +796,7 @@
             }
         }
     },
-    "skip_plot新建节点2_副本37": {
+    "skip_plot新建节点2_副11237": {
         "action": {
             "type": "Click",
             "param": {
@@ -814,7 +810,7 @@
         },
         "post_delay": 1000,
         "next": [
-            "skip_plot新建节点2_副本4_副本38"
+            "skip_plot新建节点2_副1124_副11238"
         ],
         "$__mpe_code": {
             "position": {
@@ -823,7 +819,7 @@
             }
         }
     },
-    "skip_plot新建节点2_副本4_副本38": {
+    "skip_plot新建节点2_副1124_副11238": {
         "action": {
             "type": "Click",
             "param": {
@@ -837,8 +833,8 @@
         },
         "post_delay": 5000,
         "next": [
-            "skip_plot新建节点7_副本39",
-            "skip_plot新建节点8_副本40"
+            "skip_plot新建节点7_副11239",
+            "skip_plot新建节点8_副11240"
         ],
         "$__mpe_code": {
             "position": {
@@ -847,7 +843,7 @@
             }
         }
     },
-    "skip_plot新建节点7_副本39": {
+    "skip_plot新建节点7_副11239": {
         "recognition": {
             "type": "OCR",
             "param": {
@@ -861,7 +857,7 @@
         },
         "post_delay": 1000,
         "next": [
-            "skip_plot新建节点8_副本40"
+            "skip_plot新建节点8_副11240"
         ],
         "$__mpe_code": {
             "position": {
@@ -870,9 +866,9 @@
             }
         }
     },
-    "skip_plot新建节点8_副本40": {
+    "skip_plot新建节点8_副11240": {
         "next": [
-            "find_new_副本32"
+            "find_new_副11232"
         ],
         "$__mpe_code": {
             "position": {
@@ -881,10 +877,10 @@
             }
         }
     },
-    "start_fight_260605": {
+    "start_fight_20260805": {
         "next": [
-            "Test_O1_副本1_副本11_副本17_副本1",
-            "start新建节点4_副本22_副本24_副本34_副本42"
+            "Test_O1_副1121_副11211_副11217_副1121",
+            "start新建节点4_副11222_副11224_副11234_副11242"
         ],
         "$__mpe_code": {
             "position": {
@@ -893,7 +889,7 @@
             }
         }
     },
-    "start新建节点4_副本22_副本24_副本34_副本42": {
+    "start新建节点4_副11222_副11224_副11234_副11242": {
         "recognition": {
             "type": "OCR",
             "param": {
@@ -913,7 +909,7 @@
         },
         "post_delay": 1000,
         "next": [
-            "新建节点17_副本43"
+            "新建节点17_副11243"
         ],
         "$__mpe_code": {
             "position": {
@@ -922,7 +918,7 @@
             }
         }
     },
-    "新建节点17_副本43": {
+    "新建节点17_副11243": {
         "action": {
             "type": "Click",
             "param": {
@@ -936,7 +932,7 @@
         },
         "post_delay": 2000,
         "next": [
-            "新建节点18_副本44"
+            "新建节点18_副11244"
         ],
         "$__mpe_code": {
             "position": {
@@ -945,7 +941,7 @@
             }
         }
     },
-    "新建节点18_副本44": {
+    "新建节点18_副11244": {
         "action": {
             "type": "Click",
             "param": {
@@ -959,7 +955,7 @@
         },
         "post_delay": 2000,
         "next": [
-            "新建节点18_副本8_副本45"
+            "新建节点18_副1128_副11245"
         ],
         "$__mpe_code": {
             "position": {
@@ -968,7 +964,32 @@
             }
         }
     },
-    "新建节点18_副本8_副本45": {
+    "新建节点18_副1128_副1121_副11263": {
+        "action": {
+            "type": "Click",
+            "param": {
+                "target": [
+                    557,
+                    695,
+                    8,
+                    23
+                ]
+            }
+        },
+        "repeat": 2,
+        "repeat_delay": 2000,
+        "post_delay": 2000,
+        "next": [
+            "fight新建节点4_副11221"
+        ],
+        "$__mpe_code": {
+            "position": {
+                "x": 4794,
+                "y": 424
+            }
+        }
+    },
+    "新建节点18_副1128_副11245": {
         "action": {
             "type": "Click",
             "param": {
@@ -982,25 +1003,26 @@
         },
         "post_delay": 2000,
         "next": [
-            "fight新建节点5_副本3_副本29"
+            "fight新建节点4_副11221"
         ],
         "$__mpe_code": {
             "position": {
-                "x": 4794,
-                "y": 785
+                "x": 4815,
+                "y": 775
             }
         }
     },
-    "新建节点19_副本46": {
+    "新建节点19_副11246": {
         "recognition": {
             "type": "OCR",
             "param": {
                 "expected": [
                     "NEW"
                 ],
-                "threshold": 0.2
+                "threshold": 0.05
             }
         },
+        "pre_wait_freezes": 300,
         "action": {
             "type": "Click",
             "param": {
@@ -1014,16 +1036,16 @@
         },
         "post_delay": 2000,
         "next": [
-            "fight_new_副本7"
+            "fight_new_副1127"
         ],
         "$__mpe_code": {
             "position": {
-                "x": 6363,
-                "y": 687
+                "x": 6364,
+                "y": 690
             }
         }
     },
-    "新建节点25_副本47": {
+    "新建节点25_副11247": {
         "action": {
             "type": "Click",
             "param": {
@@ -1037,7 +1059,7 @@
         },
         "post_delay": 500,
         "next": [
-            "fight_new_副本7"
+            "fight_new_副1127"
         ],
         "$__mpe_code": {
             "position": {
@@ -1046,7 +1068,7 @@
             }
         }
     },
-    "新建节点29_副本14_副本49": {
+    "新建节点29_副11214_副11249": {
         "action": {
             "type": "Click",
             "param": {
@@ -1060,7 +1082,7 @@
         },
         "post_delay": 1000,
         "next": [
-            "fight新建节点45_副本26"
+            "fight新建节点45_副11226"
         ],
         "$__mpe_code": {
             "position": {
@@ -1069,7 +1091,7 @@
             }
         }
     },
-    "新建节点29_副本48": {
+    "新建节点29_副11248": {
         "action": {
             "type": "Click",
             "param": {
@@ -1083,7 +1105,7 @@
         },
         "post_delay": 1000,
         "next": [
-            "新建节点40_副本59"
+            "新建节点40_副11259"
         ],
         "$__mpe_code": {
             "position": {
@@ -1092,9 +1114,9 @@
             }
         }
     },
-    "新建节点34_副本50": {
+    "新建节点34_副11250": {
         "next": [
-            "find_new_副本32"
+            "find_new_副11232"
         ],
         "$__mpe_code": {
             "position": {
@@ -1103,7 +1125,7 @@
             }
         }
     },
-    "新建节点36_副本11_副本52": {
+    "新建节点36_副11211_副11252": {
         "recognition": {
             "type": "OCR",
             "param": {
@@ -1119,7 +1141,7 @@
             }
         },
         "next": [
-            "新建节点39_副本12_副本58"
+            "新建节点39_副11212_副11258"
         ],
         "$__mpe_code": {
             "position": {
@@ -1128,7 +1150,7 @@
             }
         }
     },
-    "新建节点36_副本51": {
+    "新建节点36_副11251": {
         "recognition": {
             "type": "OCR",
             "param": {
@@ -1144,7 +1166,7 @@
             }
         },
         "next": [
-            "新建节点39_副本57"
+            "新建节点39_副11257"
         ],
         "$__mpe_code": {
             "position": {
@@ -1153,7 +1175,7 @@
             }
         }
     },
-    "新建节点37_副本13_副本54": {
+    "新建节点37_副11213_副11254": {
         "recognition": {
             "type": "OCR",
             "param": {
@@ -1182,7 +1204,7 @@
         },
         "post_delay": 2000,
         "next": [
-            "新建节点29_副本14_副本49"
+            "新建节点29_副11214_副11249"
         ],
         "$__mpe_code": {
             "position": {
@@ -1191,7 +1213,7 @@
             }
         }
     },
-    "新建节点37_副本53": {
+    "新建节点37_副11253": {
         "recognition": {
             "type": "OCR",
             "param": {
@@ -1220,7 +1242,7 @@
         },
         "post_delay": 2000,
         "next": [
-            "新建节点29_副本48"
+            "新建节点29_副11248"
         ],
         "$__mpe_code": {
             "position": {
@@ -1229,7 +1251,7 @@
             }
         }
     },
-    "新建节点38_副本15_副本56": {
+    "新建节点38_副11215_副11256": {
         "action": {
             "type": "Click",
             "param": {
@@ -1243,7 +1265,7 @@
         },
         "post_delay": 1000,
         "next": [
-            "end_fight_副本16_副本4"
+            "end_fight_副11216_副1124"
         ],
         "$__mpe_code": {
             "position": {
@@ -1252,7 +1274,7 @@
             }
         }
     },
-    "新建节点38_副本55": {
+    "新建节点38_副11255": {
         "action": {
             "type": "Click",
             "param": {
@@ -1266,7 +1288,7 @@
         },
         "post_delay": 1000,
         "next": [
-            "end_fight_副本3"
+            "end_fight_副1123"
         ],
         "$__mpe_code": {
             "position": {
@@ -1275,22 +1297,22 @@
             }
         }
     },
-    "新建节点39_副本12_副本58": {
+    "新建节点39_副11212_副11258": {
         "next": [
-            "新建节点37_副本13_副本54",
-            "新建节点38_副本15_副本56"
+            "新建节点37_副11213_副11254",
+            "新建节点38_副11215_副11256"
         ],
         "$__mpe_code": {
             "position": {
-                "x": 6748,
-                "y": 2581
+                "x": 6753,
+                "y": 2555
             }
         }
     },
-    "新建节点39_副本57": {
+    "新建节点39_副11257": {
         "next": [
-            "新建节点37_副本53",
-            "新建节点38_副本55"
+            "新建节点37_副11253",
+            "新建节点38_副11255"
         ],
         "$__mpe_code": {
             "position": {
@@ -1299,7 +1321,7 @@
             }
         }
     },
-    "新建节点40_副本59": {
+    "新建节点40_副11259": {
         "action": {
             "type": "Click",
             "param": {
@@ -1313,7 +1335,7 @@
         },
         "post_delay": 7000,
         "next": [
-            "handle_no_ergy_副本33"
+            "handle_no_ergy_副11233"
         ],
         "$__mpe_code": {
             "position": {
@@ -1322,7 +1344,7 @@
             }
         }
     },
-    "新建节点45_副本9_副本60": {
+    "新建节点45_副1129_副11260": {
         "action": {
             "type": "Click",
             "param": {
@@ -1336,7 +1358,7 @@
         },
         "post_delay": 7000,
         "next": [
-            "新建节点48_副本62"
+            "新建节点45_副1129_副11260_副本1"
         ],
         "$__mpe_code": {
             "position": {
@@ -1345,7 +1367,7 @@
             }
         }
     },
-    "新建节点46_副本61": {
+    "新建节点46_副11261": {
         "action": {
             "type": "Click",
             "param": {
@@ -1358,35 +1380,35 @@
             }
         },
         "next": [
-            "新建节点45_副本9_副本60"
+            "新建节点45_副1129_副11260"
         ],
         "$__mpe_code": {
             "position": {
-                "x": 7087,
+                "x": 7080,
                 "y": 2230
             }
         }
     },
-    "新建节点48_副本62": {
+    "新建节点45_副1129_副11260_副本1": {
         "action": {
             "type": "Click",
             "param": {
                 "target": [
-                    326,
-                    952,
-                    70,
-                    14
+                    346,
+                    1191,
+                    20,
+                    23
                 ]
             }
         },
-        "post_delay": 1000,
+        "post_delay": 3000,
         "next": [
-            "fight新建节点49_副本27"
+            "fight新建节点49_副11227"
         ],
         "$__mpe_code": {
             "position": {
-                "x": 7630,
-                "y": 2213
+                "x": 7632,
+                "y": 2221
             }
         }
     }
